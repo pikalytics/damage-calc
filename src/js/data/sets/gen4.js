@@ -1300,7 +1300,7 @@ var SETDEX_DPP = {
     "UU SubRoost": {"ability":"Hyper Cutter","item":"Leftovers","nature":"Jolly","evs":{"hp":200,"df":84,"sp":224},"moves":["Substitute","Roost","Taunt","Toxic"]},
     "UU Wall": {"ability":"Hyper Cutter","item":"Leftovers","nature":"Impish","evs":{"hp":252,"df":252,"sp":4},"moves":["Taunt","Roost","Earthquake","Aerial Ace"]},
     "UU Swords Dance": {"ability":"Hyper Cutter","item":"Life Orb","nature":"Jolly","evs":{"hp":4,"at":252,"sp":252},"moves":["Swords Dance","Earthquake","Stone Edge","X-Scissor"]},
-    "LC Stealth Rock": {"level":5,"ability":"Sand Veil","item":"Oran Berry","nature":"Jolly","evs":{"at":236,"sp":236},"moves":["U-turn","Earthquake","Aqua Tail","Stealth Rock"]},
+    "LC Stealth Rock": {"level":5,"ability":"Sand Veil","item":"Oran Berry","nature":"Jolly","evs":{"at":156,"df":76,"sp":236},"moves":["U-turn","Earthquake","Aqua Tail","Stealth Rock"]},
     "LC Choice Scarf": {"level":5,"ability":"Sand Veil","item":"Choice Scarf","nature":"Jolly","evs":{"at":236,"sp":236},"moves":["U-turn","Earthquake","Aqua Tail","Stone Edge"]},
     "LC Swords Dance": {"level":5,"ability":"Sand Veil","item":"Oran Berry","nature":"Jolly","evs":{"at":236,"sp":236},"moves":["Night Slash","Earthquake","Aqua Tail","Swords Dance"]},
     "NU Showdown Usage": {"ability":"Hyper Cutter","item":"Leftovers","nature":"Jolly","evs":{"hp":252,"at":4,"sp":252},"moves":["Earthquake","Stealth Rock","Taunt","U-turn"]}
