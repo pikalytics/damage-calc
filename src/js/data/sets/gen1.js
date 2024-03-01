@@ -68,24 +68,23 @@ var SETDEX_RBY = {
     "OU Status Inducer": {"moves":["Blizzard","Thunder Wave","Sing","Thunderbolt"]},
     "UU Offensive Utility": {"moves":["Thunder Wave","Body Slam","Hyper Beam","Thunderbolt"]},
     "Tradebacks OU Amnesia": {"moves":["Amnesia","Blizzard","Body Slam","Rest"]},
-    "NU Showdown Usage": {"moves":["Blizzard","Body Slam","Thunder Wave","Thunderbolt"]}
+    "NU Showdown Usage": {"moves":["Thunder Wave","Body Slam","Blizzard","Thunderbolt"]}
   },
   "Ninetales": {
-    "UU Fire Spin Pivot": {"moves":["Fire Blast","Fire Spin","Body Slam","Confuse Ray"]},
-    "NU Showdown Usage": {"moves":["Fire Spin","Confuse Ray","Fire Blast","Body Slam"]}
+    "UU Fire Spin Pivot": {"moves":["Fire Blast","Fire Spin","Body Slam","Confuse Ray"]}
   },
   "Wigglytuff": {
     "NU Bulky Support": {"moves":["Thunder Wave","Hyper Beam","Seismic Toss","Body Slam"]}
   },
   "Golbat": {
-    "PU Standard": {"moves":["Confuse Ray","Screech","Double-Edge","Mega Drain"]}
+    "PU Standard": {"moves":["Confuse Ray","Screech","Double-Edge","Mega Drain"]},
+    "NU Showdown Usage": {"moves":["Confuse Ray","Screech","Toxic","Double-Edge"]}
   },
   "Vileplume": {
     "PU Bulky Status Spreader": {"moves":["Sleep Powder","Stun Spore","Swords Dance","Hyper Beam"]}
   },
   "Parasect": {
-    "PU Setup Sleeper": {"moves":["Spore","Stun Spore","Swords Dance","Hyper Beam"]},
-    "NU Showdown Usage": {"moves":["Spore","Mega Drain","Body Slam","Swords Dance"]}
+    "PU Setup Sleeper": {"moves":["Spore","Stun Spore","Swords Dance","Hyper Beam"]}
   },
   "Venomoth": {
     "NU Double Powder": {"moves":["Sleep Powder","Stun Spore","Psychic","Double-Edge"]}
@@ -162,7 +161,8 @@ var SETDEX_RBY = {
     "Tradebacks OU Wrap": {"moves":["Wrap","Surf","Blizzard","Hyper Beam"]}
   },
   "Graveler": {
-    "PU Tank": {"moves":["Earthquake","Rock Slide","Counter","Explosion"]}
+    "PU Tank": {"moves":["Earthquake","Rock Slide","Counter","Explosion"]},
+    "NU Showdown Usage": {"moves":["Explosion","Rock Slide","Earthquake","Substitute"]}
   },
   "Golem": {
     "OU Explosion": {"moves":["Rock Slide","Earthquake","Body Slam","Explosion"]},
@@ -170,7 +170,7 @@ var SETDEX_RBY = {
     "UU Standard": {"moves":["Earthquake","Rock Slide","Substitute","Explosion"]},
     "1v1 Rest 3 Attacks": {"moves":["Earthquake","Rock Slide","Body Slam","Rest"]},
     "Tradebacks OU Standard": {"moves":["Earthquake","Explosion","Rock Slide","Body Slam"]},
-    "NU Showdown Usage": {"moves":["Earthquake","Explosion","Rock Slide","Body Slam"]}
+    "NU Showdown Usage": {"moves":["Explosion","Earthquake","Rock Slide","Body Slam"]}
   },
   "Rapidash": {
     "UU Fire Spin Breaker": {"moves":["Fire Blast","Fire Spin","Hyper Beam","Body Slam"]},
@@ -248,7 +248,8 @@ var SETDEX_RBY = {
     "Ubers Explosion": {"moves":["Thunder Wave","Thunderbolt","Screech","Explosion"]},
     "UU Fast Attacker": {"moves":["Thunderbolt","Thunder Wave","Explosion","Screech"]},
     "1v1 Screech + Hyper Beam": {"moves":["Thunderbolt","Hyper Beam","Screech","Rest"]},
-    "NU Showdown Usage": {"moves":["Explosion","Thunderbolt","Thunder Wave","Screech"]}
+    "OU Showdown Usage": {"moves":["Explosion","Thunderbolt","Thunder Wave","Toxic"]},
+    "NU Showdown Usage": {"moves":["Thunderbolt","Explosion","Thunder Wave","Hyper Beam"]}
   },
   "Exeggcute": {
     "NU Support": {"moves":["Sleep Powder","Stun Spore","Psychic","Explosion"]},
@@ -342,8 +343,7 @@ var SETDEX_RBY = {
     "Tradebacks OU Offensive": {"moves":["Thunder Wave","Thunderbolt","Ice Punch","Rolling Kick"]}
   },
   "Magmar": {
-    "PU Swagmar": {"moves":["Fire Blast","Body Slam","Confuse Ray","Counter"]},
-    "NU Showdown Usage": {"moves":["Flamethrower","Fire Blast","Seismic Toss","Confuse Ray"]}
+    "PU Swagmar": {"moves":["Fire Blast","Body Slam","Confuse Ray","Counter"]}
   },
   "Pinsir": {
     "OU Swords Dance": {"moves":["Swords Dance","Hyper Beam","Slash","Submission"]},
@@ -469,8 +469,5 @@ var SETDEX_RBY = {
     "Ubers GGMew (Reflect Sweeper)": {"moves":["Reflect","Swords Dance","Body Slam","Soft-Boiled"]},
     "Ubers Explosive Lure": {"moves":["Thunder Wave","Swords Dance","Body Slam","Explosion"]},
     "Ubers Lutrew / PaRaSiTe Mew (Transform)": {"moves":["Transform","Thunder Wave","Soft-Boiled","Reflect"]}
-  },
-  "Ivysaur": {
-    "NU Showdown Usage": {"moves":["Body Slam","Razor Leaf","Sleep Powder","Leech Seed"]}
   }
 };
