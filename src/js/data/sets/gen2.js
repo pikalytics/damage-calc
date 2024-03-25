@@ -351,8 +351,8 @@ var SETDEX_GSC = {
   },
   "Cloyster": {
     "OU Spikes": {"item":"Leftovers","moves":["Spikes","Surf","Toxic","Explosion"]},
-    "1v1 Mixed Attacker": {"item":"Leftovers","moves":["Surf","Ice Beam","Screech","Hyper Beam"]},
-    "Ubers Showdown Usage": {"item":"Leftovers","moves":["Spikes","Surf","Explosion","Toxic"]}
+    "Ubers Spikes": {"item":"Leftovers","moves":["Spikes","Surf","Toxic","Explosion"]},
+    "1v1 Mixed Attacker": {"item":"Leftovers","moves":["Surf","Ice Beam","Screech","Hyper Beam"]}
   },
   "Haunter": {
     "UU Offensive Utility": {"item":"Leftovers","moves":["Hypnosis","Psychic","Thunder","Explosion"]}
