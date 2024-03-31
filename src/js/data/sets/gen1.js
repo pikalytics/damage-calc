@@ -374,7 +374,7 @@ var SETDEX_RBY = {
   },
   "Vaporeon": {
     "UU Bulky Special Attacker": {"moves":["Surf","Blizzard","Body Slam","Rest"]},
-    "Tradebacks OU Growth": {"moves":["Growth","Rest","Surf","Acid Armor"]}
+    "Tradebacks OU Growth": {"moves":["Growth","Surf","Acid Armor","Rest"]}
   },
   "Jolteon": {
     "OU Offensive": {"moves":["Thunder Wave","Thunderbolt","Double Kick","Rest"]},
