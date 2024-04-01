@@ -247,7 +247,6 @@ var SETDEX_RBY = {
     "Ubers Explosion": {"moves":["Thunder Wave","Thunderbolt","Screech","Explosion"]},
     "UU Fast Attacker": {"moves":["Thunderbolt","Thunder Wave","Explosion","Screech"]},
     "1v1 Screech + Hyper Beam": {"moves":["Thunderbolt","Hyper Beam","Screech","Rest"]},
-    "OU Showdown Usage": {"moves":["Explosion","Thunderbolt","Thunder Wave","Toxic"]},
     "NU Showdown Usage": {"moves":["Thunderbolt","Explosion","Thunder Wave","Hyper Beam"]}
   },
   "Exeggcute": {
