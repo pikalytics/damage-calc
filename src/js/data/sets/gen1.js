@@ -53,7 +53,7 @@ var SETDEX_RBY = {
   },
   "Nidoqueen": {
     "NU All-Out Attacker": {"moves":["Earthquake","Thunderbolt","Rock Slide","Blizzard"]},
-    "PU The Queen": {"moves":["Earthquake","Blizzard","Fire Blast","Thunderbolt"]},
+    "PU The Queen": {"moves":["Earthquake","Blizzard","Thunderbolt","Substitute"]},
     "Tradebacks OU Sleeper": {"moves":["Lovely Kiss","Earthquake","Blizzard","Thunderbolt"]}
   },
   "Nidoking": {
@@ -408,6 +408,7 @@ var SETDEX_RBY = {
     "NU Swords Dance": {"moves":["Slash","Swords Dance","Hyper Beam","Surf"]}
   },
   "Aerodactyl": {
+    "Ubers Defensive Wall": {"moves":["Reflect","Rest","Double-Edge","Fire Blast"]},
     "UU Speed Utility": {"moves":["Double-Edge","Hyper Beam","Fire Blast","Toxic"]},
     "Tradebacks OU Mixed Attacker": {"moves":["Earthquake","Hyper Beam","Headbutt","Fire Blast"]}
   },
