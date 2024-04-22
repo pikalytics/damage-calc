@@ -261,7 +261,8 @@ var SETDEX_GSC = {
     "UU Swords Dance": {"item":"Leftovers","moves":["Earthquake","Rock Slide","Swords Dance","Substitute"]}
   },
   "Ninetales": {
-    "NU RestTalk": {"item":"Leftovers","moves":["Flamethrower","Toxic","Rest","Sleep Talk"]}
+    "NU Defensive": {"item":"Leftovers","moves":["Flamethrower","Sunny Day","Rest","Sleep Talk"]},
+    "NU Roar": {"item":"Leftovers","moves":["Flamethrower","Toxic","Roar","Rest"]}
   },
   "Gloom": {
     "NU Status-spreading Defensive Pivot": {"item":"Leftovers","moves":["Stun Spore","Curse","Sludge Bomb","Moonlight"]}
