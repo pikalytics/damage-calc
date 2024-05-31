@@ -152,9 +152,9 @@ var SETDEX_RBY = {
     "OU Standard": {"moves":["Sleep Powder","Wrap","Razor Leaf","Stun Spore"]},
     "OU Swords Dance": {"moves":["Swords Dance","Hyper Beam","Razor Leaf","Wrap"]},
     "Ubers Wrap": {"moves":["Wrap","Razor Leaf","Sleep Powder","Stun Spore"]},
-    "UU Attacker": {"moves":["Razor Leaf","Stun Spore","Hyper Beam","Swords Dance"]},
     "Tradebacks OU Wrap": {"moves":["Wrap","Razor Leaf","Sleep Powder","Stun Spore"]},
-    "Tradebacks OU Swords Dance": {"moves":["Swords Dance","Hyper Beam","Razor Leaf","Sleep Powder"]}
+    "Tradebacks OU Swords Dance": {"moves":["Swords Dance","Hyper Beam","Razor Leaf","Sleep Powder"]},
+    "UU Showdown Usage": {"moves":["Razor Leaf","Sleep Powder","Stun Spore","Wrap"]}
   },
   "Tentacruel": {
     "UU Wrap Pivot": {"moves":["Wrap","Surf","Blizzard","Rest"]},
