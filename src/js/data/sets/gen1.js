@@ -91,8 +91,7 @@ var SETDEX_RBY = {
   },
   "Dugtrio": {
     "UU Dugtrio": {"moves":["Earthquake","Rock Slide","Slash","Substitute"]},
-    "UU Physical Attacker": {"moves":["Earthquake","Rock Slide","Slash","Toxic"]},
-    "OU Showdown Usage": {"moves":["Earthquake","Body Slam","Rock Slide","Slash"]}
+    "UU Physical Attacker": {"moves":["Earthquake","Rock Slide","Slash","Toxic"]}
   },
   "Persian": {
     "OU Slash": {"moves":["Slash","Hyper Beam","Bubble Beam","Thunderbolt"]},
@@ -450,8 +449,7 @@ var SETDEX_RBY = {
   "Dragonair": {
     "NU Wrap": {"moves":["Wrap","Thunder Wave","Blizzard","Thunderbolt"]},
     "PU Support": {"moves":["Thunder Wave","Wrap","Blizzard","Thunderbolt"]},
-    "PU AgiliWrap": {"moves":["Agility","Wrap","Blizzard","Thunderbolt"]},
-    "OU Showdown Usage": {"moves":["Thunder Wave","Wrap","Blizzard","Thunderbolt"]}
+    "PU AgiliWrap": {"moves":["Agility","Wrap","Blizzard","Thunderbolt"]}
   },
   "Dragonite": {
     "OU Wrap": {"moves":["Wrap","Hyper Beam","Blizzard","Thunder Wave"]},

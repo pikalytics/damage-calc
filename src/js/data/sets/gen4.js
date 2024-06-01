@@ -290,8 +290,7 @@ var SETDEX_DPP = {
     "UU Life Orb": {"ability":"Overgrow","item":"Life Orb","nature":"Modest","ivs":{"at":30,"sp":30},"evs":{"hp":72,"sa":252,"sd":4,"sp":180},"moves":["Leaf Storm","Focus Blast","Hidden Power Psychic","Synthesis"]},
     "UU Swords Dance": {"ability":"Overgrow","item":"Life Orb","nature":"Jolly","evs":{"hp":4,"at":252,"sp":252},"moves":["Swords Dance","Leaf Blade","Earthquake","Rock Slide"]},
     "UU Attacking Lead": {"ability":"Overgrow","item":"Life Orb","nature":"Naive","ivs":{"at":30,"df":30},"evs":{"at":40,"sa":252,"sp":216},"moves":["Leaf Storm","Quick Attack","Hidden Power Ice","Rock Slide"]},
-    "UU Mixed Attacker": {"ability":"Overgrow","item":"Life Orb","nature":"Hasty","ivs":{"at":30,"df":30},"evs":{"at":252,"sa":80,"sp":176},"moves":["Leaf Storm","Hidden Power Ice","Leaf Blade","Earthquake"]},
-    "OU Showdown Usage": {"ability":"Overgrow","item":"Life Orb","nature":"Naive","ivs":{"at":30,"sa":30,"sp":30},"evs":{"at":252,"sa":28,"sp":228},"moves":["Hidden Power Fire","Earthquake","Leaf Blade","Crunch"]}
+    "UU Mixed Attacker": {"ability":"Overgrow","item":"Life Orb","nature":"Hasty","ivs":{"at":30,"df":30},"evs":{"at":252,"sa":80,"sp":176},"moves":["Leaf Storm","Hidden Power Ice","Leaf Blade","Earthquake"]}
   },
   "Torchic": {
     "LC Mixed Attacker": {"level":5,"ability":"Blaze","item":"Life Orb","nature":"Hasty","ivs":{"at":30,"sa":30},"evs":{"at":36,"sa":200,"sd":36,"sp":236},"moves":["Fire Blast","Hidden Power Grass","Rock Slide","Quick Attack"]}
@@ -2345,9 +2344,6 @@ var SETDEX_DPP = {
     "Ubers SubSeed": {"ability":"Serene Grace","item":"Leftovers","nature":"Timid","evs":{"hp":4,"sa":252,"sp":252},"moves":["Substitute","Leech Seed","Seed Flare","Air Slash"]},
     "Ubers Life Orb": {"ability":"Serene Grace","item":"Life Orb","nature":"Timid","ivs":{"at":30,"df":30},"evs":{"sa":252,"sd":4,"sp":252},"moves":["Seed Flare","Air Slash","Earth Power","Hidden Power Ice"]},
     "Ubers Choice Specs": {"ability":"Serene Grace","item":"Choice Specs","nature":"Timid","ivs":{"at":30,"df":30},"evs":{"hp":4,"sa":252,"sp":252},"moves":["Seed Flare","Air Slash","Earth Power","Hidden Power Ice"]}
-  },
-  "Vaporeon": {
-    "OU Showdown Usage": {"ability":"Water Absorb","item":"Leftovers","nature":"Calm","evs":{"hp":252,"sa":4,"sd":252},"moves":["Surf","Wish","Heal Bell","Roar"]}
   },
   "Lopunny": {
     "Doubles OU Showdown Usage": {"ability":"Klutz","item":"Choice Scarf","nature":"Jolly","evs":{"hp":248,"df":40,"sp":220},"moves":["Endeavor","Fake Out","Switcheroo","Thunder Wave"]}
