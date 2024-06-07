@@ -382,7 +382,7 @@ var SETDEX_GSC = {
   "Lickitung": {
     "OU Swords Dance": {"item":"Leftovers","moves":["Body Slam","Swords Dance","Sleep Talk","Rest"]},
     "OU Special Attacker": {"item":"Leftovers","moves":["Thunderbolt","Ice Beam","Sleep Talk","Rest"]},
-    "NU Showdown Usage": {"item":"Leftovers","moves":["Earthquake","Rest","Swords Dance","Frustration"]}
+    "NU Curse": {"item":"Leftovers","moves":["Curse","Rest","Sleep Talk","Return"]}
   },
   "Rhydon": {
     "OU Curse": {"item":"Leftovers","moves":["Earthquake","Rock Slide","Curse","Roar"]},
