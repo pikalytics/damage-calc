@@ -170,7 +170,7 @@ var SETDEX_GSC = {
   },
   "Arbok": {
     "OU Glare": {"item":"Leftovers","moves":["Sludge Bomb","Glare","Earthquake","Giga Drain"]},
-    "NU Showdown Usage": {"item":"Leftovers","moves":["Sludge Bomb","Earthquake","Rest","Sleep Talk"]}
+    "NU Glare": {"item":"Leftovers","moves":["Glare","Sludge Bomb","Earthquake","Giga Drain"]}
   },
   "Dugtrio": {
     "NU Substitute Attacker": {"item":"Leftovers","moves":["Earthquake","Rock Slide","Screech","Substitute"]}
