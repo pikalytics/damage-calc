@@ -392,8 +392,7 @@ var SETDEX_GSC = {
   },
   "Chansey": {
     "UU Defensive Cleric": {"item":"Leftovers","moves":["Present","Thunder","Heal Bell","Soft-Boiled"]},
-    "1v1 Curse": {"item":"Lucky Punch","moves":["Curse","Double-Edge","Rest","Counter"]},
-    "OU Showdown Usage": {"item":"Leftovers","moves":["Soft-Boiled","Heal Bell","Present","Light Screen"]}
+    "1v1 Curse": {"item":"Lucky Punch","moves":["Curse","Double-Edge","Rest","Counter"]}
   },
   "Tangela": {
     "OU Double Powder": {"item":"Leftovers","moves":["Stun Spore","Sleep Powder","Giga Drain","Reflect"]},
