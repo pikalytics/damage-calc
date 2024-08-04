@@ -366,8 +366,8 @@ var SETDEX_GSC = {
     "OU Showdown Usage": {"item":"Leftovers","moves":["Psychic","Rest","Body Slam","Sleep Talk"]}
   },
   "Kingler": {
-    "NU King Krab (RestTalk)": {"item":"Leftovers","moves":["Frustration","Swords Dance","Rest","Sleep Talk"]},
-    "NU Substitute Krab": {"item":"Leftovers","ivs":{"hp":14,"at":24},"moves":["Swords Dance","Substitute","Frustration","Hidden Power Ground"]}
+    "NU Swords Dance + Hidden Power Ground": {"item":"Leftovers","ivs":{"hp":14,"at":24},"moves":["Swords Dance","Return","Hidden Power Ground","Substitute"]},
+    "NU Swords Dance + Hidden Power Rock": {"item":"Leftovers","ivs":{"hp":22,"at":26,"df":24},"moves":["Swords Dance","Return","Hidden Power Rock","Surf"]}
   },
   "Exeggcute": {
     "NU Boom Utility": {"item":"Leftovers","ivs":{"hp":6,"at":28,"df":28},"moves":["Stun Spore","Psychic","Hidden Power Grass","Explosion"]}
@@ -476,8 +476,8 @@ var SETDEX_GSC = {
     "NU RestTalk": {"item":"Leftovers","moves":["Fire Blast","Double-Edge","Rest","Sleep Talk"]}
   },
   "Porygon": {
-    "NU BoltBeam": {"item":"Leftovers","moves":["Thunder","Ice Beam","Thunder Wave","Recover"]},
-    "NU Curse": {"item":"Leftovers","moves":["Curse","Double-Edge","Thunder Wave","Recover"]}
+    "NU Curse": {"item":"Leftovers","moves":["Curse","Double-Edge","Thunder Wave","Recover"]},
+    "NU BoltBeam": {"item":"Leftovers","moves":["Thunder","Ice Beam","Thunder Wave","Recover"]}
   },
   "Omastar": {
     "OU Support": {"item":"Leftovers","moves":["Surf","Rest","Haze","Reflect"]},
