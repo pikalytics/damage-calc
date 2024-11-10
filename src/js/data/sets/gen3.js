@@ -903,7 +903,7 @@ var SETDEX_ADV = {
     "NU Annoyer": {"ability":"Pickup","nature":"Adamant","evs":{"hp":4,"at":252,"sp":252},"moves":["Thunder Wave","Thief","Sand Attack","Astonish"]},
     "NU SkarmBliss Counter": {"ability":"Pickup","item":"Leftovers","nature":"Bold","evs":{"hp":252,"sa":136,"sp":120},"moves":["Beat Up","Thunder","Taunt","Counter"]},
     "NU Baton Pass": {"ability":"Pickup","item":"Liechi Berry","nature":"Calm","evs":{"hp":252,"df":4,"sp":252},"moves":["Baton Pass","Agility","Taunt","Substitute"]},
-    "ZU Choice Band": {"ability":"Run Away","item":"Choice Band","nature":"Jolly","evs":{"at":252,"sd":4,"sp":252},"moves":["Double-Edge","Brick Break","Return","Focus Punch"]},
+    "ZU Choice Band": {"ability":"Run Away","item":"Choice Band","nature":"Jolly","evs":{"at":252,"sd":4,"sp":252},"moves":["Double-Edge","Brick Break","Baton Pass","Return"]},
     "ZU All-out Attacker": {"ability":"Run Away","item":"Silk Scarf","nature":"Jolly","evs":{"at":252,"sd":4,"sp":252},"moves":["Double-Edge","Brick Break","Return","Focus Punch"]}
   },
   "Sunflora": {
