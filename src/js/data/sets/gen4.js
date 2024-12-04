@@ -2390,9 +2390,6 @@ var SETDEX_DPP = {
     "Ubers Life Orb": {"ability":"Serene Grace","item":"Life Orb","nature":"Timid","ivs":{"at":30,"df":30},"evs":{"sa":252,"sd":4,"sp":252},"moves":["Seed Flare","Air Slash","Earth Power","Hidden Power Ice"]},
     "Ubers Choice Specs": {"ability":"Serene Grace","item":"Choice Specs","nature":"Timid","ivs":{"at":30,"df":30},"evs":{"hp":4,"sa":252,"sp":252},"moves":["Seed Flare","Air Slash","Earth Power","Hidden Power Ice"]}
   },
-  "Vaporeon": {
-    "OU Showdown Usage": {"ability":"Water Absorb","item":"Leftovers","nature":"Calm","evs":{"hp":248,"df":44,"sd":216},"moves":["Surf","Wish","Roar","Protect"]}
-  },
   "Lopunny": {
     "Doubles OU Showdown Usage": {"ability":"Klutz","item":"Choice Scarf","nature":"Jolly","evs":{"hp":248,"df":40,"sp":220},"moves":["Endeavor","Fake Out","Switcheroo","Thunder Wave"]}
   },
