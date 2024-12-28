@@ -215,9 +215,6 @@ var SETDEX_GSC = {
     "OU Spikes": {"item":"Leftovers","moves":["Curse","Sludge Bomb","Hydro Pump","Spikes"]},
     "UU Spiker": {"item":"Leftovers","moves":["Spikes","Sludge Bomb","Hydro Pump","Haze"]}
   },
-  "Magcargo": {
-    "OU Curse": {"item":"Leftovers","moves":["Curse","Rock Slide","Earthquake","Fire Blast"]}
-  },
   "Corsola": {
     "OU Curse": {"item":"Leftovers","moves":["Mirror Coat","Curse","Ancient Power","Recover"]},
     "OU Support": {"item":"Leftovers","moves":["Surf","Recover","Toxic","Mirror Coat"]}
@@ -553,14 +550,6 @@ var SETDEX_GSC = {
     "UU Growth Sweeper": {"item":"Leftovers","moves":["Growth","Surf","Rest","Sleep Talk"]},
     "1v1 Amnesia + Growth": {"item":"Mint Berry","moves":["Amnesia","Growth","Surf","Rest"]}
   },
-  "Aipom": {
-    "OU Baton Pass": {"item":"Leftovers","moves":["Agility","Baton Pass","Return","Counter"]}
-  },
-  "Sunflora": {
-    "OU Growth": {"item":"Leftovers","ivs":{"hp":14,"at":28,"df":26},"moves":["Growth","Razor Leaf","Hidden Power Water","Synthesis"]},
-    "OU Curse": {"item":"Leftovers","ivs":{"hp":22,"at":26,"df":28},"moves":["Curse","Sludge Bomb","Return","Hidden Power Ghost"]},
-    "OU SunnyBeam": {"item":"Leftovers","ivs":{"hp":6,"at":28,"df":24},"moves":["Growth","Sunny Day","Solar Beam","Hidden Power Fire"]}
-  },
   "Yanma": {
     "OU Physical Attacker": {"item":"Leftovers","ivs":{"at":26,"df":26},"moves":["Curse","Hidden Power Bug","Wing Attack","Giga Drain"]}
   },
@@ -585,7 +574,6 @@ var SETDEX_GSC = {
     "Ubers Showdown Usage": {"item":"Leftovers","moves":["Baton Pass","Mean Look","Rest","Charm"]}
   },
   "Murkrow": {
-    "OU All-Out Attacker": {"item":"Leftovers","moves":["Drill Peck","Feint Attack","Pursuit","Night Shade"]},
     "1v1 Mixed Attacker": {"item":"Mint Berry","ivs":{"hp":6,"at":28,"df":24},"moves":["Drill Peck","Feint Attack","Hidden Power Fire","Rest"]},
     "NU Showdown Usage": {"item":"Leftovers","moves":["Drill Peck","Pursuit","Protect","Hidden Power Dark"]}
   },
@@ -666,8 +654,6 @@ var SETDEX_GSC = {
     "NU RestTalk": {"item":"Leftovers","ivs":{"hp":14,"at":28},"moves":["Surf","Hidden Power Electric","Rest","Sleep Talk"]}
   },
   "Delibird": {
-    "OU Spiker": {"item":"Leftovers","ivs":{"hp":14,"at":24,"df":26},"moves":["Spikes","Ice Beam","Toxic","Hidden Power Flying"]},
-    "OU Curse": {"item":"Leftovers","ivs":{"hp":14,"at":24,"df":26},"moves":["Curse","Hidden Power Flying","Ice Beam","Rest"]},
     "NU Spikes": {"moves":["Ice Beam","Toxic","Thief","Spikes"]}
   },
   "Skarmory": {
