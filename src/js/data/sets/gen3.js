@@ -674,7 +674,7 @@ var SETDEX_ADV = {
     "LC Offensive": {"level":5,"ability":"Static","item":"Sitrus Berry","nature":"Timid","ivs":{"at":30,"sa":30},"evs":{"hp":116,"df":36,"sa":160,"sp":196},"moves":["Thunderbolt","Hidden Power Grass","Thief","Explosion"]},
     "LC Offensive Pivot": {"level":5,"ability":"Static","item":"Sitrus Berry","nature":"Timid","ivs":{"at":30,"sa":30},"evs":{"hp":36,"at":40,"df":116,"sa":80,"sp":196},"moves":["Thunderbolt","Thunder Wave","Hidden Power Grass","Explosion"]},
     "ZU Rain Setter": {"ability":"Static","item":"Silk Scarf","nature":"Naive","evs":{"at":252,"sa":4,"sp":252},"moves":["Rain Dance","Explosion","Thunder","Taunt"]},
-    "ZU Sub + Petaya Berry": {"ability":"Static","item":"Petaya Berry","nature":"Hasty","ivs":{"at":30,"sa":30},"evs":{"at":16,"sa":252,"sp":232},"moves":["Thunderbolt","Hidden Power Grass","Explosion","Substitute"]}
+    "ZU Sub + Petaya Berry": {"ability":"Static","item":"Petaya Berry","nature":"Hasty","ivs":{"at":30,"sa":30},"evs":{"at":24,"sa":252,"sp":232},"moves":["Thunderbolt","Hidden Power Grass","Explosion","Substitute"]}
   },
   "Exeggcute": {
     "LC Sunny Day Sweeper": {"level":5,"ability":"Chlorophyll","item":"Sitrus Berry","nature":"Mild","evs":{"hp":36,"at":36,"df":36,"sa":196,"sd":156,"sp":36},"moves":["Explosion","Sunny Day","Solar Beam","Psychic"]},
