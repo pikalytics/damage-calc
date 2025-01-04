@@ -478,7 +478,7 @@ var SETDEX_SV = {
     "National Dex Monotype Utility (Poison)": {"ability":"Infiltrator","item":"Heavy-Duty Boots","nature":"Jolly","teraType":"Poison","evs":{"hp":252,"sd":56,"sp":200},"moves":["Brave Bird","Toxic","Defog","Roost"]}
   },
   "Chinchou": {
-    "LC Pivot": {"level":5,"ability":"Volt Absorb","item":"Eviolite","nature":"Timid","teraType":"Water","ivs":{"at":0},"evs":{"df":132,"sa":148,"sp":220},"moves":["Hydro Pump","Thunderbolt","Ice Beam","Volt Switch"]}
+    "LC Pivot": {"level":5,"ability":"Volt Absorb","item":"Eviolite","nature":"Timid","teraType":"Flying","ivs":{"at":0},"evs":{"df":132,"sa":148,"sp":220},"moves":["Hydro Pump","Thunderbolt","Ice Beam","Volt Switch"]}
   },
   "Azumarill": {
     "OU Assault Vest": {"ability":"Huge Power","item":"Assault Vest","nature":"Adamant","teraType":"Water","evs":{"hp":252,"at":252,"df":4},"moves":["Aqua Jet","Play Rough","Liquidation","Knock Off"]},
@@ -1693,6 +1693,7 @@ var SETDEX_SV = {
     "OU Boots Attacker": {"ability":"Sharpness","item":"Heavy-Duty Boots","nature":"Jolly","teraType":"Poison","evs":{"at":252,"sd":4,"sp":252},"moves":["Ceaseless Edge","Razor Shell","Knock Off","Encore"]},
     "OU Choice Scarf": {"ability":"Sharpness","item":"Choice Scarf","nature":"Jolly","teraType":"Water","evs":{"at":252,"df":4,"sp":252},"moves":["Ceaseless Edge","Razor Shell","Knock Off","Flip Turn"]},
     "OU Assault Vest": {"ability":"Sharpness","item":"Assault Vest","nature":"Adamant","teraType":"Poison","evs":{"hp":172,"at":252,"sp":84},"moves":["Ceaseless Edge","Razor Shell","Aqua Jet","Knock Off"]},
+    "Monotype Swords Dance (Water)": {"ability":"Sharpness","item":"Heavy-Duty Boots","nature":"Jolly","teraType":"Water","evs":{"at":252,"df":4,"sp":252},"moves":["Ceaseless Edge","Sacred Sword","Sucker Punch","Swords Dance"]},
     "Monotype Choice Scarf (Water)": {"ability":"Sharpness","item":"Choice Scarf","nature":"Jolly","teraType":"Water","evs":{"at":252,"sd":4,"sp":252},"moves":["Ceaseless Edge","Aqua Cutter","Sacred Sword","Knock Off"]},
     "Monotype Entry Hazard Lead (Dark)": {"ability":"Sharpness","item":"Focus Sash","nature":"Jolly","teraType":"Water","evs":{"at":252,"df":4,"sp":252},"moves":["Ceaseless Edge","Aqua Cutter","Taunt","Sucker Punch"]},
     "National Dex Offensive": {"ability":"Sharpness","item":"Black Glasses","nature":"Jolly","teraType":"Water","evs":{"at":252,"sd":4,"sp":252},"moves":["Ceaseless Edge","Razor Shell","Sucker Punch","Swords Dance"]},
@@ -1892,8 +1893,8 @@ var SETDEX_SV = {
     "RU Swords Dance": {"ability":"Defiant","item":"Eviolite","nature":"Adamant","teraType":"Flying","evs":{"hp":200,"at":252,"sp":56},"moves":["Swords Dance","Sucker Punch","Iron Head","Throat Chop"]},
     "Monotype Swords Dance (Dark)": {"ability":"Defiant","item":"Life Orb","nature":"Adamant","teraType":"Dark","evs":{"at":252,"sd":4,"sp":252},"moves":["Swords Dance","Iron Head","Throat Chop","Sucker Punch"]},
     "Monotype Swords Dance (Steel)": {"ability":"Defiant","item":"Life Orb","nature":"Adamant","teraType":"Dark","evs":{"at":252,"sd":4,"sp":252},"moves":["Swords Dance","Throat Chop","Low Kick","Sucker Punch"]},
-    "National Dex UU Swords Dance": {"ability":"Defiant","item":"Black Glasses","nature":"Adamant","teraType":"Dark","evs":{"at":252,"sd":4,"sp":252},"moves":["Swords Dance","Knock Off","Sucker Punch","Iron Head"]},
-    "National Dex UU Pursuit Trapper": {"ability":"Defiant","item":"Eviolite","nature":"Adamant","teraType":"Dark","evs":{"hp":72,"at":252,"sp":184},"moves":["Pursuit","Knock Off","Sucker Punch","Iron Head"]},
+    "National Dex UU Swords Dance": {"ability":"Defiant","item":"Life Orb","nature":"Adamant","teraType":"Dark","evs":{"at":252,"sd":4,"sp":252},"moves":["Swords Dance","Knock Off","Sucker Punch","Iron Head"]},
+    "National Dex UU Pursuit Trapper": {"ability":"Defiant","item":"Choice Band","nature":"Adamant","teraType":"Dark","evs":{"at":252,"sd":4,"sp":252},"moves":["Pursuit","Knock Off","Sucker Punch","Iron Head"]},
     "National Dex Monotype Showdown Usage": {"ability":"Defiant","item":"Eviolite","nature":"Adamant","teraType":"Dark","evs":{"hp":252,"at":252,"df":4},"moves":["Sucker Punch","Iron Head","Swords Dance","Knock Off"]},
     "UU Showdown Usage": {"ability":"Defiant","item":"Eviolite","nature":"Adamant","teraType":"Dark","evs":{"at":252,"sd":4,"sp":252},"moves":["Iron Head","Sucker Punch","Swords Dance","Stone Edge"]}
   },
