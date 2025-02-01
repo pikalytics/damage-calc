@@ -981,7 +981,7 @@ var SETDEX_DPP = {
   "Machamp": {
     "Ubers Attacking Lead": {"ability":"No Guard","item":"Focus Sash","nature":"Adamant","evs":{"hp":204,"at":252,"sp":52},"moves":["Dynamic Punch","Payback","Bullet Punch","Stone Edge"]},
     "Doubles OU Physical Attacker": {"ability":"No Guard","item":"Choice Band","nature":"Adamant","evs":{"hp":252,"at":252,"df":4},"moves":["Dynamic Punch","Payback","Ice Punch","Stone Edge"]},
-    "OU Showdown Usage": {"ability":"No Guard","item":"Leftovers","nature":"Adamant","evs":{"hp":128,"at":252,"sp":128},"moves":["Dynamic Punch","Payback","Ice Punch","Bullet Punch"]}
+    "OU Showdown Usage": {"ability":"No Guard","item":"Leftovers","nature":"Adamant","evs":{"hp":252,"at":252,"sd":4},"moves":["Dynamic Punch","Payback","Stone Edge","Substitute"]}
   },
   "Tentacool": {
     "LC Rapid Spin": {"level":5,"ability":"Clear Body","item":"Oran Berry","nature":"Bold","evs":{"hp":196,"df":76,"sa":36,"sp":196},"moves":["Rapid Spin","Toxic Spikes","Surf","Sludge Bomb"]}
@@ -2546,6 +2546,9 @@ var SETDEX_DPP = {
     "Ubers SubSeed": {"ability":"Serene Grace","item":"Leftovers","nature":"Timid","evs":{"hp":4,"sa":252,"sp":252},"moves":["Substitute","Leech Seed","Seed Flare","Air Slash"]},
     "Ubers Life Orb": {"ability":"Serene Grace","item":"Life Orb","nature":"Timid","ivs":{"at":30,"df":30},"evs":{"sa":252,"sd":4,"sp":252},"moves":["Seed Flare","Air Slash","Earth Power","Hidden Power Ice"]},
     "Ubers Choice Specs": {"ability":"Serene Grace","item":"Choice Specs","nature":"Timid","ivs":{"at":30,"df":30},"evs":{"hp":4,"sa":252,"sp":252},"moves":["Seed Flare","Air Slash","Earth Power","Hidden Power Ice"]}
+  },
+  "Vaporeon": {
+    "OU Showdown Usage": {"ability":"Water Absorb","item":"Leftovers","nature":"Modest","evs":{"df":36,"sa":252,"sp":220},"moves":["Surf","Wish","Protect","Ice Beam"]}
   },
   "Meowth": {
     "LC Showdown Usage": {"level":5,"ability":"Technician","item":"Focus Sash","nature":"Jolly","evs":{"at":236,"df":76,"sp":196},"moves":["Fake Out","Bite","Aerial Ace","U-turn"]}
