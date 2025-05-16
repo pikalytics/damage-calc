@@ -165,9 +165,6 @@ var SETDEX_GSC = {
     "OU Standard": {"item":"Leftovers","ivs":{"hp":22,"at":26,"df":28},"moves":["High Jump Kick","Return","Counter","Hidden Power Ghost"]},
     "NU Showdown Usage": {"item":"Leftovers","ivs":{"hp":22,"at":26,"df":28},"moves":["High Jump Kick","Rapid Spin","Mach Punch","Hidden Power Ghost"]}
   },
-  "Hitmontop": {
-    "OU Standard": {"item":"Leftovers","ivs":{"hp":22,"at":26,"df":28},"moves":["High Jump Kick","Curse","Counter","Hidden Power Ghost"]}
-  },
   "Arbok": {
     "OU Glare": {"item":"Leftovers","moves":["Sludge Bomb","Glare","Earthquake","Giga Drain"]},
     "NU Glare": {"item":"Leftovers","moves":["Glare","Sludge Bomb","Earthquake","Giga Drain"]}
