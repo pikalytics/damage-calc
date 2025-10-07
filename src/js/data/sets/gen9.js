@@ -2020,17 +2020,13 @@ var SETDEX_SV = {
     "OU Nasty Plot": {"ability":"Regenerator","item":"Life Orb","nature":"Timid","teraType":"Steel","ivs":{"at":0},"evs":{"sa":252,"sd":4,"sp":252},"moves":["Nasty Plot","Bleakwind Storm","Heat Wave","Grass Knot"]},
     "OU Boots Pivot": {"ability":"Regenerator","item":"Heavy-Duty Boots","nature":"Timid","teraType":"Steel","evs":{"hp":252,"sd":4,"sp":252},"moves":["Bleakwind Storm","U-turn","Knock Off","Heat Wave"]},
     "OU Assault Vest": {"ability":"Regenerator","item":"Assault Vest","nature":"Timid","teraType":"Steel","evs":{"hp":252,"sd":4,"sp":252},"moves":["Bleakwind Storm","U-turn","Knock Off","Heat Wave"]},
-    "UU Taunt Tornadus": {"ability":"Regenerator","item":"Heavy-Duty Boots","nature":"Timid","teraType":"Electric","evs":{"hp":252,"sd":64,"sp":192},"moves":["Bleakwind Storm","Knock Off","Taunt","U-turn"]},
-    "UU Assault Vest": {"ability":"Regenerator","item":"Assault Vest","nature":"Timid","teraType":"Electric","evs":{"hp":252,"df":84,"sd":4,"sp":168},"moves":["Bleakwind Storm","Knock Off","Focus Blast","U-turn"]},
-    "UU Offensive Nasty Plot": {"ability":"Regenerator","item":"Heavy-Duty Boots","nature":"Timid","teraType":"Electric","ivs":{"at":0},"evs":{"hp":60,"sa":252,"sp":196},"moves":["Nasty Plot","Bleakwind Storm","Focus Blast","Taunt"]},
-    "UU Defensive Nasty Plot": {"ability":"Regenerator","item":"Heavy-Duty Boots","nature":"Timid","teraType":"Electric","ivs":{"at":0},"evs":{"hp":252,"sd":60,"sp":196},"moves":["Nasty Plot","Bleakwind Storm","Focus Blast","Taunt"]},
-    "UU Choice Specs": {"ability":"Regenerator","item":"Choice Specs","nature":"Timid","teraType":"Flying","evs":{"df":4,"sa":252,"sp":252},"moves":["Bleakwind Storm","Focus Blast","Heat Wave","Weather Ball"]},
     "Monotype Nasty Plot": {"ability":"Regenerator","item":"Heavy-Duty Boots","nature":"Timid","teraType":"Flying","ivs":{"at":0},"evs":{"hp":252,"sa":4,"sp":252},"moves":["Nasty Plot","Bleakwind Storm","Focus Blast","Heat Wave"]},
     "Monotype Assault Vest": {"ability":"Regenerator","item":"Assault Vest","nature":"Timid","teraType":"Flying","evs":{"hp":248,"sa":44,"sp":216},"moves":["Bleakwind Storm","Heat Wave","Knock Off","U-turn"]},
     "National Dex Pivot": {"ability":"Regenerator","item":"Heavy-Duty Boots","nature":"Timid","teraType":"Flying","evs":{"hp":184,"df":108,"sp":216},"moves":["Bleakwind Storm","U-turn","Knock Off","Heat Wave"]},
     "National Dex Nasty Plot": {"ability":"Regenerator","item":"Flyinium Z","nature":"Timid","teraType":"Flying","evs":{"sa":252,"sd":4,"sp":252},"moves":["Nasty Plot","Hurricane","Heat Wave","Focus Blast"]},
     "National Dex Assault Vest": {"ability":"Regenerator","item":"Assault Vest","nature":"Timid","teraType":"Flying","evs":{"hp":252,"sa":16,"sp":240},"moves":["Bleakwind Storm","U-turn","Heat Wave","Knock Off"]},
     "National Dex Monotype Nasty Plot Wallbreaker": {"ability":"Regenerator","item":"Flyinium Z","nature":"Timid","teraType":"Flying","evs":{"sa":252,"sd":4,"sp":252},"moves":["Nasty Plot","Hurricane","Focus Blast","Taunt"]},
+    "UU Showdown Usage": {"ability":"Regenerator","item":"Heavy-Duty Boots","nature":"Timid","teraType":"Flying","evs":{"hp":252,"sd":64,"sp":192},"moves":["Bleakwind Storm","U-turn","Knock Off","Focus Blast"]},
     "Almost Any Ability Showdown Usage": {"ability":"Serene Grace","item":"Metronome","nature":"Timid","evs":{"hp":4,"sa":252,"sp":252},"moves":["Nasty Plot","Heat Wave","Taunt","Air Slash"]}
   },
   "Thundurus": {
@@ -3216,7 +3212,7 @@ var SETDEX_SV = {
     "Monotype Swords Dance (Dark)": {"ability":"Tinted Lens","item":"Silver Powder","nature":"Adamant","teraType":"Bug","evs":{"at":252,"sd":4,"sp":252},"moves":["Swords Dance","First Impression","Leech Life","Sucker Punch"]},
     "National Dex UU Offensive Pivot": {"ability":"Tinted Lens","item":"Heavy-Duty Boots","nature":"Adamant","teraType":"Bug","evs":{"at":252,"sd":4,"sp":252},"moves":["First Impression","U-turn","Knock Off","Sucker Punch"]},
     "National Dex RU Pivot": {"ability":"Tinted Lens","item":"Heavy-Duty Boots","nature":"Jolly","teraType":"Bug","evs":{"at":252,"sd":4,"sp":252},"moves":["First Impression","U-turn","Leech Life","Sucker Punch"]},
-    "National Dex Monotype Swords Dance (Bug)": {"ability":"Tinted Lens","item":"Darkinium Z","nature":"Jolly","teraType":"Bug","evs":{"at":252,"df":4,"sp":252},"moves":["Swords Dance","Leech Life","First Impression","Sucker Punch"]}
+    "National Dex Monotype Kamen Rider (Swords Dance) (Bug)": {"ability":"Tinted Lens","item":"Darkinium Z","nature":"Adamant","teraType":"Bug","evs":{"at":252,"df":4,"sp":252},"moves":["Swords Dance","Leech Life","Knock Off","Sucker Punch"]}
   },
   "Pawmot": {
     "Monotype All-out Attacker (Electric)": {"ability":"Iron Fist","item":"Punching Glove","nature":"Jolly","teraType":"Electric","evs":{"at":252,"sd":4,"sp":252},"moves":["Close Combat","Mach Punch","Ice Punch","Seed Bomb"]},
