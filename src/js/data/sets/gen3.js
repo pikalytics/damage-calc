@@ -13,8 +13,8 @@ var SETDEX_ADV = {
   },
   "Charmeleon": {
     "NU Special Attacker": {"ability":"Blaze","item":"Leftovers","nature":"Modest","ivs":{"at":30,"sa":30},"evs":{"hp":4,"sa":252,"sp":252},"moves":["Fire Blast","Overheat","Hidden Power Grass","Dragon Claw"]},
-    "PU Substitute": {"ability":"Blaze","item":"Leftovers","nature":"Timid","ivs":{"at":2,"sa":30},"evs":{"sa":252,"sd":4,"sp":252},"moves":["Fire Blast","Hidden Power Grass","Dragon Claw","Substitute"]},
-    "PU Setup Sweeper": {"ability":"Blaze","item":"Leftovers","nature":"Hasty","ivs":{"df":30,"sd":30},"evs":{"at":252,"sa":4,"sp":252},"moves":["Belly Drum","Fire Blast","Brick Break","Hidden Power Ghost"]}
+    "PU Special Attacker": {"ability":"Blaze","item":"Leftovers","nature":"Timid","ivs":{"at":2,"sa":30},"evs":{"sa":252,"sd":4,"sp":252},"moves":["Fire Blast","Hidden Power Grass","Dragon Claw","Substitute"]},
+    "PU Physical Setup": {"ability":"Blaze","item":"Leftovers","nature":"Hasty","ivs":{"df":30,"sd":30},"evs":{"at":252,"sa":4,"sp":252},"moves":["Belly Drum","Fire Blast","Double-Edge","Hidden Power Ghost"]}
   },
   "Charizard": {
     "OU Recoil Attacker": {"ability":"Blaze","item":"Salac Berry","nature":"Lonely","evs":{"at":252,"sa":120,"sp":136},"moves":["Belly Drum","Double-Edge","Fire Blast","Earthquake"]},
@@ -24,7 +24,7 @@ var SETDEX_ADV = {
     "OU Physical Attacker": {"ability":"Blaze","item":"Leftovers","nature":"Lonely","ivs":{"at":30,"sa":30},"evs":{"hp":140,"at":252,"sp":116},"moves":["Dragon Dance","Aerial Ace","Hidden Power Grass","Fire Blast"]}
   },
   "Wartortle": {
-    "PU Defensive": {"ability":"Torrent","item":"Leftovers","nature":"Bold","ivs":{"at":0},"evs":{"hp":248,"df":148,"sp":112},"moves":["Rapid Spin","Toxic","Surf","Ice Beam"]}
+    "PU Defensive": {"ability":"Torrent","item":"Leftovers","nature":"Bold","ivs":{"at":30,"sa":30},"evs":{"hp":248,"df":188,"sp":72},"moves":["Rapid Spin","Surf","Toxic","Hidden Power Grass"]}
   },
   "Blastoise": {
     "OU Standard": {"ability":"Torrent","item":"Leftovers","nature":"Bold","evs":{"hp":252,"df":148,"sa":68,"sp":40},"moves":["Surf","Ice Beam","Rapid Spin","Roar"]},
@@ -85,6 +85,7 @@ var SETDEX_ADV = {
     "NU Counter": {"ability":"Cute Charm","item":"Leftovers","nature":"Impish","evs":{"hp":252,"df":252,"sd":4},"moves":["Counter","Wish","Protect","Return"]},
     "NU Screen Support": {"ability":"Cute Charm","item":"Leftovers","nature":"Impish","evs":{"hp":4,"df":252,"sd":252},"moves":["Reflect","Body Slam","Wish","Thunder Wave"]},
     "NU Special Attacker": {"ability":"Cute Charm","item":"Leftovers","nature":"Modest","evs":{"hp":4,"sa":252,"sp":252},"moves":["Ice Beam","Thunderbolt","Fire Blast","Wish"]},
+    "PU Offensive Sub": {"ability":"Cute Charm","item":"Leftovers","nature":"Adamant","evs":{"at":252,"sd":76,"sp":180},"moves":["Body Slam","Shadow Ball","Substitute","Brick Break"]},
     "PU Defensive Wish": {"ability":"Cute Charm","item":"Leftovers","nature":"Careful","evs":{"df":104,"sd":252,"sp":152},"moves":["Wish","Protect","Toxic","Seismic Toss"]}
   },
   "Vileplume": {
@@ -222,7 +223,7 @@ var SETDEX_ADV = {
     "Doubles OU Fast Attacker": {"ability":"Overgrow","item":"Lum Berry","nature":"Timid","ivs":{"at":30,"sa":30,"sp":30},"evs":{"sa":252,"sd":4,"sp":252},"moves":["Leaf Blade","Hidden Power Fire","Substitute","Protect"]}
   },
   "Combusken": {
-    "PU Specially Biased": {"ability":"Blaze","item":"Leftovers","nature":"Mild","ivs":{"at":30,"sa":30},"evs":{"at":4,"sa":252,"sp":252},"moves":["Fire Blast","Hidden Power Grass","Sky Uppercut","Quick Attack"]},
+    "PU Specially Biased": {"ability":"Blaze","item":"Leftovers","nature":"Mild","ivs":{"at":30,"sa":30},"evs":{"at":4,"sa":252,"sp":252},"moves":["Fire Blast","Hidden Power Grass","Sky Uppercut","Substitute"]},
     "PU Reversal Sweeper": {"ability":"Blaze","item":"Salac Berry","nature":"Hasty","evs":{"at":252,"sa":4,"sp":252},"moves":["Endure","Swords Dance","Reversal","Fire Blast"]},
     "PU Swords Dance": {"ability":"Blaze","item":"Leftovers","nature":"Adamant","ivs":{"df":30,"sd":30},"evs":{"at":252,"sd":4,"sp":252},"moves":["Swords Dance","Sky Uppercut","Hidden Power Ghost","Fire Blast"]}
   },
@@ -234,8 +235,9 @@ var SETDEX_ADV = {
     "OU SubPunch": {"ability":"Blaze","item":"Leftovers","nature":"Lonely","ivs":{"at":30,"df":30},"evs":{"hp":12,"at":60,"sa":184,"sp":252},"moves":["Substitute","Focus Punch","Fire Blast","Hidden Power Ice"]}
   },
   "Marshtomp": {
-    "PU Substitute": {"ability":"Torrent","item":"Leftovers","nature":"Adamant","ivs":{"df":30,"sd":30},"evs":{"at":252,"sd":4,"sp":252},"moves":["Substitute","Earthquake","Hidden Power Ghost","Rock Slide"]},
-    "PU Defensive": {"ability":"Torrent","item":"Leftovers","nature":"Relaxed","evs":{"hp":252,"df":252,"sd":4},"moves":["Earthquake","Surf","Toxic","Protect"]}
+    "PU Defensive": {"ability":"Torrent","item":"Leftovers","nature":"Relaxed","evs":{"hp":248,"df":192,"sd":24,"sp":44},"moves":["Earthquake","Ice Beam","Toxic","Protect"]},
+    "PU Sub Special Focused": {"ability":"Torrent","item":"Leftovers","nature":"Mild","evs":{"at":4,"sa":252,"sp":252},"moves":["Substitute","Hydro Pump","Ice Beam","Earthquake"]},
+    "PU Sub Physical Focused": {"ability":"Torrent","item":"Leftovers","nature":"Adamant","ivs":{"df":30,"sd":30},"evs":{"at":252,"sd":4,"sp":252},"moves":["Substitute","Earthquake","Hidden Power Ghost","Rock Slide"]}
   },
   "Swampert": {
     "OU Standard Defensive": {"ability":"Torrent","item":"Leftovers","nature":"Relaxed","evs":{"hp":248,"df":216,"sd":44},"moves":["Earthquake","Ice Beam","Protect","Hydro Pump"]},
@@ -260,7 +262,7 @@ var SETDEX_ADV = {
     "NU Substitute + Baton Pass": {"ability":"Intimidate","item":"Leftovers","nature":"Adamant","ivs":{"sd":30},"evs":{"hp":132,"at":252,"sp":124},"moves":["Substitute","Baton Pass","Swords Dance","Hidden Power Steel"]},
     "NU Physically Defensive": {"ability":"Intimidate","item":"Leftovers","nature":"Impish","ivs":{"sd":30},"evs":{"hp":252,"df":252,"sp":4},"moves":["Hidden Power Steel","Toxic","Protect","Baton Pass"]},
     "NU Choice Band": {"ability":"Intimidate","item":"Choice Band","nature":"Adamant","ivs":{"sd":30},"evs":{"hp":132,"at":252,"sp":124},"moves":["Hidden Power Steel","Focus Punch","Rock Slide","Baton Pass"]},
-    "PU Defensive": {"ability":"Intimidate","item":"Leftovers","nature":"Bold","evs":{"hp":252,"df":252,"sd":4},"moves":["Baton Pass","Toxic","Protect","Seismic Toss"]},
+    "PU Defensive": {"ability":"Intimidate","item":"Leftovers","nature":"Bold","evs":{"hp":252,"df":252,"sd":4},"moves":["Seismic Toss","Toxic","Protect","Baton Pass"]},
     "PU Swords Dance": {"ability":"Hyper Cutter","item":"Leftovers","nature":"Adamant","ivs":{"sd":30},"evs":{"hp":132,"at":252,"sp":124},"moves":["Swords Dance","Brick Break","Hidden Power Steel","Substitute"]}
   },
   "Plusle": {
@@ -269,7 +271,7 @@ var SETDEX_ADV = {
   "Minun": {
     "NU Support": {"ability":"Minus","item":"Leftovers","nature":"Timid","evs":{"hp":252,"sa":4,"sp":252},"moves":["Wish","Encore","Baton Pass","Thunderbolt"]},
     "PU Standard Offensive": {"ability":"Minus","item":"Leftovers","nature":"Timid","ivs":{"at":2,"sa":30},"evs":{"sa":252,"sd":4,"sp":252},"moves":["Thunder Wave","Baton Pass","Thunderbolt","Hidden Power Grass"]},
-    "PU Wish Support": {"ability":"Minus","item":"Leftovers","nature":"Timid","ivs":{"at":2,"sa":30},"evs":{"hp":252,"sa":4,"sp":252},"moves":["Wish","Thunder Wave","Thunderbolt","Hidden Power Grass"]}
+    "PU Wish Support": {"ability":"Minus","item":"Leftovers","nature":"Timid","ivs":{"at":2,"sa":30},"evs":{"hp":252,"sa":4,"sp":252},"moves":["Wish","Baton Pass","Thunderbolt","Hidden Power Grass"]}
   },
   "Kecleon": {
     "OU Choice Band": {"ability":"Color Change","item":"Choice Band","nature":"Adamant","evs":{"hp":252,"at":252,"sd":4},"moves":["Return","Shadow Ball","Focus Punch","Trick"]},
@@ -306,7 +308,9 @@ var SETDEX_ADV = {
   },
   "Arbok": {
     "NU Choice Band": {"ability":"Intimidate","item":"Choice Band","nature":"Jolly","evs":{"at":252,"df":4,"sp":252},"moves":["Sludge Bomb","Earthquake","Rock Slide","Sleep Talk"]},
-    "PU Offensive": {"ability":"Intimidate","item":"Choice Band","nature":"Jolly","ivs":{"df":30,"sd":30},"evs":{"at":252,"sd":4,"sp":252},"moves":["Sludge Bomb","Earthquake","Hidden Power Ghost","Rock Slide"]}
+    "PU Offensive": {"ability":"Intimidate","item":"Leftovers","nature":"Jolly","ivs":{"df":30,"sd":30},"evs":{"at":252,"sd":4,"sp":252},"moves":["Sludge Bomb","Earthquake","Hidden Power Ghost","Glare"]},
+    "PU Choice Band": {"ability":"Intimidate","item":"Choice Band","nature":"Jolly","ivs":{"df":30,"sd":30},"evs":{"at":252,"sd":4,"sp":252},"moves":["Sludge Bomb","Earthquake","Hidden Power Ghost","Rock Slide"]},
+    "PU Physically Bulky": {"ability":"Intimidate","item":"Leftovers","nature":"Jolly","evs":{"hp":252,"df":200,"sp":56},"moves":["Sludge Bomb","Earthquake","Glare","Refresh"]}
   },
   "Dugtrio": {
     "OU Choice Band": {"ability":"Arena Trap","item":"Choice Band","nature":"Jolly","ivs":{"at":30,"df":30,"sd":30},"evs":{"at":252,"sd":4,"sp":252},"moves":["Earthquake","Hidden Power Bug","Aerial Ace","Rock Slide"]}
@@ -458,10 +462,11 @@ var SETDEX_ADV = {
     "NU Choice Band": {"ability":"Arena Trap","item":"Choice Band","nature":"Adamant","ivs":{"at":30,"df":30,"sd":30},"evs":{"hp":172,"at":252,"df":40,"sd":44},"moves":["Earthquake","Hidden Power Bug","Rock Slide","Quick Attack"]},
     "NU 200 Metagame": {"ability":"Arena Trap","item":"Leftovers","nature":"Adamant","evs":{"hp":172,"at":252,"df":40,"sd":44},"moves":["Earthquake","Toxic","Protect","Quick Attack"]},
     "PU Choice Band": {"ability":"Arena Trap","item":"Choice Band","nature":"Adamant","ivs":{"df":30,"sd":30},"evs":{"at":252,"sd":4,"sp":252},"moves":["Earthquake","Rock Slide","Hidden Power Ghost","Quick Attack"]},
-    "PU Bulky Trapper": {"ability":"Arena Trap","item":"Leftovers","nature":"Careful","ivs":{"df":30,"sd":30},"evs":{"hp":252,"df":4,"sd":252},"moves":["Earthquake","Rock Slide","Hidden Power Ghost","Quick Attack"]},
+    "PU Bulky Trapper": {"ability":"Arena Trap","item":"Leftovers","nature":"Careful","ivs":{"df":30,"sd":30},"evs":{"hp":252,"df":4,"sd":252},"moves":["Earthquake","Rock Slide","Hidden Power Ghost","Protect"]},
     "LC Trapper": {"level":5,"ability":"Arena Trap","item":"Sitrus Berry","nature":"Impish","evs":{"hp":156,"at":36,"df":156,"sd":156},"moves":["Earthquake","Rock Slide","Quick Attack","Protect"]}
   },
   "Vibrava": {
+    "PU Offensive": {"ability":"Levitate","item":"Leftovers","nature":"Adamant","evs":{"hp":40,"at":252,"sp":216},"moves":["Earthquake","Rock Slide","Toxic","Protect"]},
     "PU Choice Band": {"ability":"Levitate","item":"Choice Band","nature":"Jolly","ivs":{"df":30,"sd":30},"evs":{"at":252,"sd":4,"sp":252},"moves":["Earthquake","Rock Slide","Hidden Power Ghost","Quick Attack"]}
   },
   "Flygon": {
@@ -579,7 +584,7 @@ var SETDEX_ADV = {
     "NU Physical Sun Sweeper": {"ability":"Chlorophyll","item":"Poison Barb","nature":"Naive","ivs":{"sa":30,"sd":30},"evs":{"at":252,"sa":4,"sp":252},"moves":["Sunny Day","Sludge Bomb","Hidden Power Ground","Solar Beam"]}
   },
   "Tentacool": {
-    "PU Specially Defensive": {"ability":"Liquid Ooze","item":"Leftovers","nature":"Calm","evs":{"hp":252,"df":4,"sd":252},"moves":["Rapid Spin","Surf","Toxic","Protect"]},
+    "PU Specially Defensive": {"ability":"Liquid Ooze","item":"Leftovers","nature":"Calm","ivs":{"at":30,"sa":30},"evs":{"hp":252,"df":4,"sd":252},"moves":["Rapid Spin","Surf","Toxic","Hidden Power Grass"]},
     "LC Showdown Usage": {"level":5,"ability":"Liquid Ooze","item":"Sitrus Berry","nature":"Timid","ivs":{"sa":30},"evs":{"sa":200,"sd":36,"sp":196},"moves":["Surf","Thief","Hidden Power Electric","Ice Beam"]}
   },
   "Tentacruel": {
@@ -616,7 +621,7 @@ var SETDEX_ADV = {
     "Ubers Showdown Usage": {"ability":"Magnet Pull","item":"Leftovers","nature":"Modest","ivs":{"at":30,"sa":30,"sp":30},"evs":{"df":4,"sa":252,"sp":252},"moves":["Hidden Power Fire","Thunderbolt","Thunder Wave","Thunder"]}
   },
   "Doduo": {
-    "PU Choice Band": {"ability":"Early Bird","item":"Choice Band","nature":"Jolly","ivs":{"sa":30,"sd":30},"evs":{"at":252,"sd":4,"sp":252},"moves":["Double-Edge","Quick Attack","Drill Peck","Hidden Power Ground"]},
+    "PU Choice Band": {"ability":"Early Bird","item":"Choice Band","nature":"Adamant","ivs":{"sa":30,"sd":30},"evs":{"at":252,"sd":4,"sp":252},"moves":["Double-Edge","Quick Attack","Drill Peck","Hidden Power Ground"]},
     "LC Choice Band": {"level":5,"ability":"Early Bird","item":"Choice Band","nature":"Jolly","ivs":{"sa":30,"sd":30},"evs":{"at":236,"sp":236},"moves":["Double-Edge","Drill Peck","Quick Attack","Hidden Power Ground"]},
     "LC SubSitrus": {"level":5,"ability":"Early Bird","item":"Sitrus Berry","nature":"Jolly","ivs":{"hp":29},"evs":{"at":236,"sp":236},"moves":["Drill Peck","Body Slam","Quick Attack","Substitute"]}
   },
@@ -640,7 +645,7 @@ var SETDEX_ADV = {
     "OU Spiker": {"ability":"Shell Armor","item":"Leftovers","nature":"Timid","evs":{"hp":72,"sa":8,"sd":244,"sp":184},"moves":["Spikes","Surf","Rapid Spin","Explosion"]}
   },
   "Gastly": {
-    "PU Offensive": {"ability":"Levitate","item":"Leftovers","nature":"Timid","ivs":{"at":30,"df":30},"evs":{"sa":252,"sd":4,"sp":252},"moves":["Thunderbolt","Hidden Power Ice","Giga Drain","Substitute"]},
+    "PU Stallbreaker": {"ability":"Levitate","item":"Leftovers","nature":"Timid","evs":{"sa":252,"sd":4,"sp":252},"moves":["Psychic","Thunderbolt","Taunt","Will-O-Wisp"]},
     "LC Specially Defensive": {"level":5,"ability":"Levitate","item":"Sitrus Berry","nature":"Timid","evs":{"hp":36,"sa":36,"sd":236,"sp":196},"moves":["Thunderbolt","Giga Drain","Thief","Explosion"]},
     "LC Mixed Offensive": {"level":5,"ability":"Levitate","item":"Sitrus Berry","nature":"Hasty","evs":{"at":156,"df":36,"sa":36,"sd":76,"sp":196},"moves":["Psychic","Sludge Bomb","Thunderbolt","Explosion"]}
   },
@@ -714,7 +719,8 @@ var SETDEX_ADV = {
   },
   "Seadra": {
     "NU Special Attacker": {"ability":"Poison Point","item":"Leftovers","nature":"Timid","ivs":{"at":30,"sa":30},"evs":{"hp":4,"sa":252,"sp":252},"moves":["Hydro Pump","Ice Beam","Hidden Power Grass","Substitute"]},
-    "PU Offensive": {"ability":"Poison Point","item":"Leftovers","nature":"Timid","ivs":{"at":30,"sa":30},"evs":{"hp":4,"sa":252,"sp":252},"moves":["Surf","Ice Beam","Hidden Power Grass","Substitute"]}
+    "PU Substitute": {"ability":"Poison Point","item":"Leftovers","nature":"Timid","ivs":{"at":30,"sa":30},"evs":{"hp":4,"sa":252,"sp":252},"moves":["Surf","Ice Beam","Hidden Power Grass","Substitute"]},
+    "PU Modest Agility": {"ability":"Poison Point","item":"Petaya Berry","nature":"Modest","ivs":{"at":30,"sa":30},"evs":{"hp":4,"sa":252,"sp":252},"moves":["Hydro Pump","Ice Beam","Agility","Hidden Power Grass"]}
   },
   "Seaking": {
     "NU Rain Dance Sweeper": {"ability":"Swift Swim","item":"Leftovers","nature":"Mild","ivs":{"at":30,"sa":30},"evs":{"at":184,"sa":252,"sp":72},"moves":["Rain Dance","Surf","Megahorn","Hidden Power Grass"]},
@@ -790,6 +796,10 @@ var SETDEX_ADV = {
   "Flareon": {
     "NU Mixed Attacker": {"ability":"Flash Fire","item":"Silk Scarf","nature":"Lonely","ivs":{"at":30,"sa":30},"evs":{"at":228,"sa":28,"sp":252},"moves":["Double-Edge","Fire Blast","Hidden Power Grass","Quick Attack"]},
     "NU Special Attacker": {"ability":"Flash Fire","item":"Leftovers","nature":"Modest","ivs":{"at":30,"sa":30},"evs":{"hp":8,"df":84,"sa":192,"sp":224},"moves":["Fire Blast","Hidden Power Grass","Substitute","Baton Pass"]}
+  },
+  "Porygon": {
+    "PU Offensive Twave": {"ability":"Trace","item":"Leftovers","nature":"Modest","evs":{"hp":32,"sa":252,"sd":4,"sp":220},"moves":["Thunder Wave","Recover","Thunderbolt","Ice Beam"]},
+    "LC Showdown Usage": {"level":5,"ability":"Trace","item":"Sitrus Berry","nature":"Relaxed","evs":{"hp":236,"df":196,"sa":76},"moves":["Ice Beam","Recycle","Return","Thief"]}
   },
   "Omanyte": {
     "PU Defensive Spikes": {"ability":"Shell Armor","item":"Leftovers","nature":"Bold","evs":{"hp":252,"df":252,"sd":4},"moves":["Spikes","Toxic","Surf","Ice Beam"]},
@@ -900,6 +910,7 @@ var SETDEX_ADV = {
   "Sunflora": {
     "NU SunnyBeam": {"ability":"Chlorophyll","item":"Petaya Berry","nature":"Modest","ivs":{"at":30,"sa":30,"sp":30},"evs":{"hp":36,"sa":252,"sp":220},"moves":["Sunny Day","Solar Beam","Hidden Power Fire","Grass Whistle"]},
     "NU Specially Defensive": {"ability":"Chlorophyll","item":"Leftovers","nature":"Calm","ivs":{"at":30,"sa":30,"sp":30},"evs":{"hp":252,"sa":68,"sd":188},"moves":["Razor Leaf","Hidden Power Fire","Leech Seed","Synthesis"]},
+    "PU Bulky": {"ability":"Chlorophyll","item":"Leftovers","nature":"Bold","ivs":{"at":2,"df":30},"evs":{"hp":252,"df":192,"sd":44,"sp":20},"moves":["Leech Seed","Synthesis","Giga Drain","Hidden Power Ice"]},
     "ZU Sunny Beam": {"ability":"Chlorophyll","item":"Lum Berry","nature":"Modest","ivs":{"at":30,"sa":30,"sp":30},"evs":{"hp":44,"sa":252,"sp":212},"moves":["Sunny Day","Solar Beam","Hidden Power Fire","Synthesis"]},
     "ZU Specially Defensive": {"ability":"Chlorophyll","item":"Leftovers","nature":"Calm","ivs":{"at":30,"df":30},"evs":{"hp":244,"sd":220,"sp":44},"moves":["Growth","Razor Leaf","Hidden Power Ice","Synthesis"]}
   },
@@ -939,7 +950,7 @@ var SETDEX_ADV = {
     "Ubers Blob-Removing Blob": {"ability":"Shadow Tag","item":"Lum Berry","nature":"Timid","evs":{"df":252,"sd":44,"sp":212},"moves":["Counter","Safeguard","Encore","Destiny Bond"]}
   },
   "Pineco": {
-    "PU Spikes": {"ability":"Sturdy","item":"Leftovers","nature":"Sassy","ivs":{"sp":0},"evs":{"hp":252,"df":4,"sd":252},"moves":["Spikes","Explosion","Toxic","Rapid Spin"]},
+    "PU Spikes": {"ability":"Sturdy","item":"Leftovers","nature":"Sassy","ivs":{"sp":0},"evs":{"hp":252,"df":4,"sd":252},"moves":["Spikes","Earthquake","Explosion","Rapid Spin"]},
     "LC Spikes": {"level":5,"ability":"Sturdy","item":"Sitrus Berry","nature":"Careful","evs":{"hp":196,"df":36,"sd":236},"moves":["Spikes","Rapid Spin","Light Screen","Explosion"]},
     "ZU Spikes": {"ability":"Sturdy","item":"Leftovers","nature":"Careful","evs":{"hp":252,"df":4,"sd":252},"moves":["Spikes","Protect","Earthquake","Explosion"]},
     "NU Showdown Usage": {"ability":"Sturdy","item":"Leftovers","nature":"Impish","ivs":{"df":30,"sd":30},"evs":{"hp":252,"df":252,"sd":4},"moves":["Spikes","Explosion","Hidden Power Ghost","Toxic"]}
@@ -1089,7 +1100,8 @@ var SETDEX_ADV = {
   },
   "Mightyena": {
     "NU Cleric Phazer": {"ability":"Intimidate","item":"Leftovers","nature":"Bold","evs":{"hp":252,"df":252,"sd":4},"moves":["Heal Bell","Roar","Crunch","Toxic"]},
-    "PU Defensive": {"ability":"Intimidate","item":"Leftovers","nature":"Bold","evs":{"hp":252,"df":252,"sd":4},"moves":["Crunch","Heal Bell","Protect","Roar"]}
+    "PU Offensive Heal Bell": {"ability":"Intimidate","item":"Leftovers","nature":"Adamant","evs":{"hp":40,"at":252,"sp":216},"moves":["Heal Bell","Return","Shadow Ball","Howl"]},
+    "PU Defensive Heal Bell": {"ability":"Intimidate","item":"Leftovers","nature":"Bold","evs":{"hp":252,"df":252,"sd":4},"moves":["Crunch","Heal Bell","Protect","Roar"]}
   },
   "Linoone": {
     "OU Belly Drum": {"ability":"Pickup","item":"Leftovers","nature":"Adamant","ivs":{"sa":30,"sd":30},"evs":{"hp":108,"at":252,"df":12,"sp":136},"moves":["Belly Drum","Extreme Speed","Shadow Ball","Hidden Power Ground"]},
@@ -1132,7 +1144,7 @@ var SETDEX_ADV = {
   "Shedinja": {
     "Ubers Protect": {"ability":"Wonder Guard","item":"Quick Claw","nature":"Adamant","evs":{"at":252,"sp":252},"moves":["Shadow Ball","Silver Wind","Swords Dance","Protect"]},
     "Ubers Choice Band": {"ability":"Wonder Guard","item":"Choice Band","nature":"Adamant","ivs":{"df":30,"sa":30,"sd":30,"sp":30},"evs":{"at":252,"sp":252},"moves":["Toxic","Hidden Power Fighting","Shadow Ball","Silver Wind"]},
-    "PU Swords Dance": {"ability":"Wonder Guard","item":"Lum Berry","nature":"Adamant","ivs":{"df":30,"sa":30,"sd":30,"sp":30},"evs":{"at":252,"df":4,"sp":252},"moves":["Swords Dance","Shadow Ball","Hidden Power Fighting","Toxic"]},
+    "PU The Shed": {"ability":"Wonder Guard","item":"Lum Berry","nature":"Adamant","ivs":{"df":30,"sa":30,"sd":30,"sp":30},"evs":{"at":252,"df":4,"sp":252},"moves":["Swords Dance","Shadow Ball","Hidden Power Fighting","Protect"]},
     "NU Showdown Usage": {"ability":"Wonder Guard","item":"Choice Band","nature":"Adamant","ivs":{"at":30,"df":30,"sd":30},"evs":{"at":252,"sd":4,"sp":252},"moves":["Shadow Ball","Baton Pass","Hidden Power Bug","Return"]}
   },
   "Loudred": {
@@ -1170,6 +1182,9 @@ var SETDEX_ADV = {
     "OU Choice Band": {"ability":"Rock Head","item":"Choice Band","nature":"Adamant","evs":{"hp":140,"at":252,"sp":116},"moves":["Earthquake","Rock Slide","Double-Edge","Focus Punch"]},
     "UU Standard": {"ability":"Sturdy","item":"Leftovers","nature":"Brave","evs":{"hp":228,"at":252,"sa":28},"moves":["Rock Slide","Ice Beam","Substitute","Focus Punch"]}
   },
+  "Meditite": {
+    "PU Offensive Sub": {"ability":"Pure Power","item":"Leftovers","nature":"Adamant","ivs":{"df":30,"sd":30},"evs":{"at":252,"sd":4,"sp":252},"moves":["Substitute","Brick Break","Hidden Power Ghost","Toxic"]}
+  },
   "Medicham": {
     "OU Choice Band": {"ability":"Pure Power","item":"Choice Band","nature":"Adamant","evs":{"hp":4,"at":252,"sp":252},"moves":["Brick Break","Shadow Ball","Rock Slide","Fake Out"]},
     "OU Bulk Up": {"ability":"Pure Power","item":"Leftovers","nature":"Adamant","evs":{"hp":4,"at":252,"sp":252},"moves":["Bulk Up","Brick Break","Shadow Ball","Recover"]},
@@ -1187,7 +1202,7 @@ var SETDEX_ADV = {
     "NU Specially Defensive": {"ability":"Liquid Ooze","item":"Leftovers","nature":"Careful","ivs":{"sa":30,"sd":30},"evs":{"hp":252,"df":4,"sd":252},"moves":["Sludge Bomb","Hidden Power Ground","Toxic","Explosion"]},
     "NU Physically Defensive": {"ability":"Liquid Ooze","item":"Leftovers","nature":"Relaxed","evs":{"hp":252,"df":252,"sd":4},"moves":["Ice Beam","Counter","Toxic","Explosion"]},
     "NU Mixed RestTalk": {"ability":"Liquid Ooze","item":"Leftovers","nature":"Bold","evs":{"hp":252,"df":84,"sd":172},"moves":["Ice Beam","Toxic","Rest","Sleep Talk"]},
-    "PU Specially Defensive": {"ability":"Liquid Ooze","item":"Leftovers","nature":"Sassy","evs":{"hp":252,"sa":4,"sd":252},"moves":["Sludge Bomb","Fire Punch","Giga Drain","Explosion"]}
+    "PU Specially Defensive": {"ability":"Liquid Ooze","item":"Leftovers","nature":"Sassy","evs":{"hp":252,"sa":4,"sd":252},"moves":["Sludge Bomb","Fire Punch","Giga Drain","Shadow Ball"]}
   },
   "Carvanha": {
     "LC Offensive": {"level":5,"ability":"Rough Skin","item":"Salac Berry","nature":"Modest","ivs":{"at":30,"sa":30},"evs":{"sa":240,"sp":236},"moves":["Hydro Pump","Crunch","Hidden Power Grass","Substitute"]}
@@ -1196,6 +1211,7 @@ var SETDEX_ADV = {
     "UU Sharknado": {"ability":"Rough Skin","item":"Salac Berry","nature":"Timid","evs":{"hp":4,"sa":252,"sp":252},"moves":["Hydro Pump","Ice Beam","Crunch","Endure"]}
   },
   "Wailmer": {
+    "PU Curse": {"ability":"Water Veil","item":"Chesto Berry","nature":"Careful","ivs":{"df":30,"sd":30,"sp":30},"evs":{"hp":48,"df":188,"sd":252,"sp":20},"moves":["Curse","Rest","Hidden Power Rock","Earthquake"]},
     "LC Physically Defensive": {"level":5,"ability":"Water Veil","item":"Sitrus Berry","nature":"Bold","ivs":{"at":30,"sa":30},"evs":{"hp":36,"df":236,"sa":200,"sp":36},"moves":["Water Spout","Hidden Power Grass","Icy Wind","Self-Destruct"]},
     "LC Specially Defensive": {"level":5,"ability":"Water Veil","item":"Sitrus Berry","nature":"Calm","ivs":{"at":30,"sa":30},"evs":{"hp":36,"sa":120,"sd":236,"sp":116},"moves":["Water Spout","Hidden Power Grass","Icy Wind","Self-Destruct"]},
     "LC Specially Offensive": {"level":5,"ability":"Water Veil","item":"Sitrus Berry","nature":"Modest","ivs":{"at":30,"sa":30},"evs":{"hp":36,"df":76,"sa":200,"sp":196},"moves":["Water Spout","Hydro Pump","Hidden Power Grass","Self-Destruct"]},
@@ -1207,6 +1223,7 @@ var SETDEX_ADV = {
     "NU Defensive": {"ability":"Water Veil","item":"Leftovers","nature":"Calm","evs":{"df":212,"sd":252,"sp":44},"moves":["Surf","Rest","Sleep Talk","Roar"]}
   },
   "Numel": {
+    "PU Lead": {"ability":"Oblivious","item":"Leftovers","nature":"Mild","evs":{"hp":128,"at":120,"sa":152,"sd":4,"sp":104},"moves":["Earthquake","Fire Blast","Toxic","Protect"]},
     "ZU Rest": {"ability":"Oblivious","item":"Leftovers","nature":"Sassy","evs":{"hp":252,"at":4,"sd":252},"moves":["Earthquake","Fire Blast","Rest","Sleep Talk"]},
     "ZU Special Wall": {"ability":"Oblivious","item":"Leftovers","nature":"Sassy","evs":{"hp":252,"sa":4,"sd":252},"moves":["Earthquake","Fire Blast","Rest","Sleep Talk"]}
   },
@@ -1256,7 +1273,7 @@ var SETDEX_ADV = {
     "NU Mixed Wallbreaker": {"ability":"Shed Skin","item":"Leftovers","nature":"Naughty","ivs":{"at":30,"sa":30},"evs":{"at":252,"sa":112,"sp":144},"moves":["Sludge Bomb","Earthquake","Flamethrower","Hidden Power Grass"]},
     "NU Special Attacker": {"ability":"Shed Skin","item":"Leftovers","nature":"Modest","ivs":{"at":30,"sp":30},"evs":{"hp":4,"sa":252,"sp":252},"moves":["Flamethrower","Giga Drain","Crunch","Hidden Power Psychic"]},
     "NU Choice Band": {"ability":"Shed Skin","item":"Choice Band","nature":"Adamant","ivs":{"df":30,"sd":30},"evs":{"hp":4,"at":252,"sp":252},"moves":["Sludge Bomb","Earthquake","Hidden Power Ghost","Iron Tail"]},
-    "PU Mixed Offensive": {"ability":"Shed Skin","item":"Leftovers","nature":"Hasty","evs":{"at":252,"sa":4,"sp":252},"moves":["Sludge Bomb","Earthquake","Giga Drain","Flamethrower"]}
+    "PU Mixed Breaker": {"ability":"Shed Skin","item":"Leftovers","nature":"Lonely","evs":{"at":252,"sa":4,"sp":252},"moves":["Sludge Bomb","Earthquake","Giga Drain","Crunch"]}
   },
   "Whiscash": {
     "NU Physically Defensive": {"ability":"Oblivious","item":"Leftovers","nature":"Relaxed","evs":{"hp":252,"df":252,"sd":4},"moves":["Earthquake","Ice Beam","Rest","Sleep Talk"]},
@@ -1318,6 +1335,7 @@ var SETDEX_ADV = {
     "Ubers Why Not Use Wynaut? (Trapper)": {"ability":"Shadow Tag","item":"Lum Berry","nature":"Careful","evs":{"hp":252,"df":64,"sd":192},"moves":["Encore","Counter","Mirror Coat","Destiny Bond"]}
   },
   "Snorunt": {
+    "PU Spikes": {"ability":"Inner Focus","item":"Salac Berry","nature":"Timid","ivs":{"at":2,"sa":30},"evs":{"df":4,"sa":252,"sp":252},"moves":["Spikes","Ice Beam","Endure","Hidden Power Grass"]},
     "LC Spikes": {"level":5,"ability":"Inner Focus","item":"Sitrus Berry","nature":"Timid","ivs":{"at":2,"sa":30},"evs":{"hp":36,"df":36,"sa":120,"sd":116,"sp":196},"moves":["Spikes","Ice Beam","Hidden Power Grass","Toxic"]},
     "ZU Spikes Lead": {"ability":"Inner Focus","item":"Salac Berry","nature":"Timid","ivs":{"at":30,"sa":30},"evs":{"sa":252,"sd":4,"sp":252},"moves":["Spikes","Ice Beam","Hidden Power Grass","Endure"]}
   },
@@ -1336,7 +1354,7 @@ var SETDEX_ADV = {
   "Clamperl": {
     "OU Special Sweeper": {"ability":"Shell Armor","item":"Deep Sea Tooth","nature":"Modest","ivs":{"sa":30},"evs":{"hp":252,"sa":252,"sp":4},"moves":["Surf","Ice Beam","Hidden Power Electric","Toxic"]},
     "OU Staller": {"ability":"Shell Armor","item":"Deep Sea Scale","nature":"Bold","evs":{"hp":252,"df":4,"sd":252},"moves":["Barrier","Rest","Sleep Talk","Toxic"]},
-    "PU Offensive": {"ability":"Shell Armor","item":"Deep Sea Tooth","nature":"Modest","ivs":{"at":30,"sa":30},"evs":{"hp":252,"sa":252,"sp":4},"moves":["Surf","Ice Beam","Hidden Power Grass","Substitute"]},
+    "PU Offensive": {"ability":"Shell Armor","item":"Deep Sea Tooth","nature":"Modest","ivs":{"at":30,"sa":30},"evs":{"sa":252,"sp":252},"moves":["Surf","Ice Beam","Hidden Power Grass","Substitute"]},
     "LC Showdown Usage": {"level":5,"ability":"Shell Armor","item":"Deep Sea Tooth","nature":"Modest","ivs":{"at":30,"sa":30},"evs":{"hp":76,"sa":248,"sp":180},"moves":["Surf","Hidden Power Grass","Substitute","Ice Beam"]}
   },
   "Huntail": {
@@ -1445,9 +1463,6 @@ var SETDEX_ADV = {
   },
   "Girafarig": {
     "UU Showdown Usage": {"ability":"Early Bird","item":"Leftovers","nature":"Bold","evs":{"hp":196,"df":212,"sp":100},"moves":["Calm Mind","Psychic","Rest","Crunch"]}
-  },
-  "Porygon": {
-    "LC Showdown Usage": {"level":5,"ability":"Trace","item":"Sitrus Berry","nature":"Relaxed","evs":{"hp":236,"df":196,"sa":76},"moves":["Ice Beam","Recycle","Return","Thief"]}
   },
   "Cyndaquil": {
     "LC Showdown Usage": {"level":5,"ability":"Blaze","item":"Salac Berry","nature":"Timid","ivs":{"at":30,"sa":30},"evs":{"df":12,"sa":200,"sd":36,"sp":236},"moves":["Hidden Power Grass","Endure","Flamethrower","Quick Attack"]}
