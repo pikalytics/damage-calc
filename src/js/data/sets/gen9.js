@@ -2078,6 +2078,7 @@ var SETDEX_SV = {
   "Landorus": {
     "Ubers Wallbreaker": {"ability":"Sheer Force","item":"Life Orb","nature":"Timid","teraType":"Ground","ivs":{"at":0},"evs":{"sa":252,"sd":4,"sp":252},"moves":["Earth Power","Focus Blast","Psychic","Nasty Plot"]},
     "Doubles OU Special Attacker": {"ability":"Sheer Force","item":"Life Orb","nature":"Timid","teraType":"Poison","ivs":{"at":0},"evs":{"df":4,"sa":252,"sp":252},"moves":["Earth Power","Sludge Bomb","Sandsear Storm","Protect"]},
+    "Monotype Choice Scarf (Flying)": {"ability":"Sheer Force","item":"Choice Scarf","nature":"Naive","teraType":"Ground","evs":{"at":4,"sa":252,"sp":252},"moves":["Earth Power","Sludge Wave","Rock Slide","U-turn"]},
     "Monotype Gravity breaker (Ground)": {"ability":"Sheer Force","item":"Life Orb","nature":"Timid","teraType":"Ground","ivs":{"at":0},"evs":{"sa":252,"sd":4,"sp":252},"moves":["Gravity","Earth Power","Focus Blast","Sludge Wave"]},
     "Monotype Choice Scarf Landorus (Ground)": {"ability":"Sheer Force","item":"Choice Scarf","nature":"Modest","teraType":"Ground","evs":{"sa":252,"sd":4,"sp":252},"moves":["Earth Power","Sludge Wave","Focus Blast","U-turn"]},
     "Monotype All-out Attacker (Flying)": {"ability":"Sheer Force","item":"Life Orb","nature":"Naive","teraType":"Ground","evs":{"sa":252,"sd":4,"sp":252},"moves":["Earth Power","Focus Blast","Psychic","Rock Slide"]},
@@ -2557,7 +2558,7 @@ var SETDEX_SV = {
     "National Dex RU Showdown Usage": {"ability":"Disguise","item":"Lum Berry","nature":"Jolly","teraType":"Ghost","evs":{"at":252,"sd":4,"sp":252},"moves":["Play Rough","Swords Dance","Shadow Claw","Shadow Sneak"]}
   },
   "Kommo-o": {
-    "OU Clangorous Soul": {"ability":"Soundproof","item":"Chesto Berry","nature":"Timid","teraType":"Normal","evs":{"sa":252,"sd":4,"sp":252},"moves":["Clangorous Soul","Boomburst","Flamethrower","Rest"]},
+    "OU Clangorous Soul": {"ability":"Soundproof","item":"Throat Spray","nature":"Timid","teraType":"Normal","evs":{"sa":252,"sd":4,"sp":252},"moves":["Clangorous Soul","Boomburst","Flamethrower","Clanging Scales"]},
     "Doubles OU Iron Defense": {"ability":"Bulletproof","item":"Leftovers","nature":"Bold","teraType":"Fire","evs":{"hp":252,"df":252,"sd":4},"moves":["Iron Defense","Body Press","Flamethrower","Protect"]},
     "Doubles OU Clangorous Soul": {"ability":"Bulletproof","item":"Clear Amulet","nature":"Jolly","teraType":"Fire","evs":{"hp":136,"at":204,"sp":168},"moves":["Drain Punch","Fire Punch","Clangorous Soul","Protect"]},
     "Monotype Clangorous Soul (Dragon)": {"ability":"Soundproof","item":"Throat Spray","nature":"Timid","teraType":"Dragon","ivs":{"at":0},"evs":{"sa":252,"sd":4,"sp":252},"moves":["Clangorous Soul","Clanging Scales","Vacuum Wave","Flamethrower"]},
