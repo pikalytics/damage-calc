@@ -1968,6 +1968,7 @@ var SETDEX_SV = {
     "Monotype Defog (Flying)": {"ability":"Overcoat","item":"Heavy-Duty Boots","nature":"Careful","teraType":"Dark","evs":{"hp":248,"sd":244,"sp":16},"moves":["Foul Play","U-turn","Defog","Roost"]},
     "National Dex RU Defensive": {"ability":"Overcoat","item":"Heavy-Duty Boots","nature":"Impish","teraType":"Dark","evs":{"hp":252,"df":160,"sp":96},"moves":["Foul Play","Roost","U-turn","Defog"]},
     "National Dex Monotype Physically Defensive (Dark)": {"ability":"Overcoat","item":"Heavy-Duty Boots","nature":"Impish","teraType":"Dark","evs":{"hp":248,"df":244,"sp":16},"moves":["Foul Play","U-turn","Defog","Roost"]},
+    "Anything Goes Specially Defensive": {"ability":"Overcoat","item":"Heavy-Duty Boots","nature":"Careful","teraType":"Steel","evs":{"hp":252,"df":4,"sd":252},"moves":["Roost","Toxic","Whirlwind","Knock Off"]},
     "Almost Any Ability Physically Defensive": {"ability":"Unaware","item":"Heavy-Duty Boots","nature":"Relaxed","ivs":{"sp":0},"evs":{"hp":248,"df":252,"sd":8},"moves":["Foul Play","U-turn","Toxic","Roost"]},
     "Almost Any Ability Magic Guard": {"ability":"Magic Guard","item":"Rocky Helmet","nature":"Relaxed","ivs":{"sp":0},"evs":{"hp":252,"df":252,"sd":4},"moves":["Foul Play","Roost","U-turn","Toxic"]},
     "Ubers UU Defensive Pivot": {"ability":"Overcoat","item":"Heavy-Duty Boots","nature":"Bold","teraType":"Poison","evs":{"hp":252,"df":252,"sd":4},"moves":["Toxic","Foul Play","U-turn","Roost"]},
@@ -2080,7 +2081,7 @@ var SETDEX_SV = {
     "Doubles OU Special Attacker": {"ability":"Sheer Force","item":"Life Orb","nature":"Timid","teraType":"Poison","ivs":{"at":0},"evs":{"df":4,"sa":252,"sp":252},"moves":["Earth Power","Sludge Bomb","Sandsear Storm","Protect"]},
     "Monotype Choice Scarf (Flying)": {"ability":"Sheer Force","item":"Choice Scarf","nature":"Naive","teraType":"Ground","evs":{"at":4,"sa":252,"sp":252},"moves":["Earth Power","Sludge Wave","Rock Slide","U-turn"]},
     "Monotype Gravity breaker (Ground)": {"ability":"Sheer Force","item":"Life Orb","nature":"Timid","teraType":"Ground","ivs":{"at":0},"evs":{"sa":252,"sd":4,"sp":252},"moves":["Gravity","Earth Power","Focus Blast","Sludge Wave"]},
-    "Monotype Choice Scarf Landorus (Ground)": {"ability":"Sheer Force","item":"Choice Scarf","nature":"Modest","teraType":"Ground","evs":{"sa":252,"sd":4,"sp":252},"moves":["Earth Power","Sludge Wave","Focus Blast","U-turn"]},
+    "Monotype Choice Scarf Landorus (Ground)": {"ability":"Sheer Force","item":"Choice Scarf","nature":"Timid","teraType":"Ground","evs":{"sa":252,"sd":4,"sp":252},"moves":["Earth Power","Sludge Wave","Focus Blast","U-turn"]},
     "Monotype All-out Attacker (Flying)": {"ability":"Sheer Force","item":"Life Orb","nature":"Naive","teraType":"Ground","evs":{"sa":252,"sd":4,"sp":252},"moves":["Earth Power","Focus Blast","Psychic","Rock Slide"]},
     "National Dex Monotype Gravity (Ground)": {"ability":"Sheer Force","item":"Life Orb","nature":"Timid","teraType":"Ground","evs":{"sa":252,"sd":4,"sp":252},"moves":["Earth Power","Sludge Wave","Focus Blast","Gravity"]},
     "National Dex Monotype Choice Scarf (Ground)": {"ability":"Sheer Force","item":"Choice Scarf","nature":"Timid","teraType":"Ground","evs":{"df":4,"sa":252,"sp":252},"moves":["Earth Power","Sludge Wave","Psychic","U-turn"]},
@@ -3320,7 +3321,7 @@ var SETDEX_SV = {
     "LC Choice Scarf": {"level":5,"ability":"Stakeout","item":"Choice Scarf","nature":"Jolly","teraType":"Fairy","evs":{"at":212,"sd":108,"sp":188},"moves":["Crunch","Play Rough","Fire Fang","Psychic Fangs"]}
   },
   "Shroodle": {
-    "LC Setup Sweeper": {"level":5,"ability":"Unburden","item":"Grassy Seed","nature":"Adamant","teraType":"Ground","evs":{"hp":36,"at":236,"sp":236},"moves":["Swords Dance","Gunk Shot","Tera Blast","Substitute"]}
+    "LC Unburden Sweeper": {"level":5,"ability":"Unburden","item":"Grassy Seed","nature":"Adamant","teraType":"Flying","evs":{"hp":36,"at":236,"sp":236},"moves":["Gunk Shot","Knock Off","Acrobatics","Swords Dance"]}
   },
   "Grafaiai": {
     "NU Terrain Sweeper": {"ability":"Unburden","item":"Grassy Seed","nature":"Adamant","teraType":"Dark","evs":{"hp":196,"at":252,"sp":60},"moves":["Swords Dance","Gunk Shot","Knock Off","Low Kick"]},
