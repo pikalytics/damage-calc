@@ -219,6 +219,9 @@ var SETDEX_SV = {
   "Grimer-Alola": {
     "LC Wallbreaker": {"level":5,"ability":"Poison Touch","item":"Eviolite","nature":"Adamant","teraType":"Grass","evs":{"hp":36,"at":196,"df":196,"sd":36},"moves":["Knock Off","Gunk Shot","Drain Punch","Sleep Talk"]}
   },
+  "Muk": {
+    "PU ToxTect": {"ability":"Sticky Hold","item":"Leftovers","nature":"Impish","teraType":"Dark","evs":{"hp":248,"df":252,"sd":8},"moves":["Toxic","Protect","Knock Off","Drain Punch"]}
+  },
   "Muk-Alola": {
     "RU RestTalk": {"ability":"Poison Touch","item":"Leftovers","nature":"Careful","teraType":"Water","evs":{"hp":252,"df":4,"sd":252},"moves":["Knock Off","Poison Jab","Rest","Sleep Talk"]},
     "Monotype Specially Defensive (Dark)": {"ability":"Poison Touch","item":"Black Sludge","nature":"Careful","teraType":"Poison","evs":{"hp":252,"at":4,"sd":252},"moves":["Poison Jab","Knock Off","Drain Punch","Protect"]},
@@ -640,7 +643,7 @@ var SETDEX_SV = {
   "Sneasel": {
     "NU Swords Dance": {"ability":"Inner Focus","item":"Heavy-Duty Boots","nature":"Jolly","teraType":"Ice","evs":{"at":252,"df":4,"sp":252},"moves":["Swords Dance","Ice Shard","Knock Off","Icicle Crash"]},
     "PU Swords Dance": {"ability":"Inner Focus","item":"Heavy-Duty Boots","nature":"Jolly","teraType":"Ice","evs":{"at":252,"df":4,"sp":252},"moves":["Swords Dance","Triple Axel","Knock Off","Ice Shard"]},
-    "PU Choice Band": {"ability":"Inner Focus","item":"Choice Band","nature":"Jolly","teraType":"Ice","evs":{"at":252,"df":4,"sp":252},"moves":["Knock Off","Triple Axel","Ice Shard","Low Kick"]},
+    "PU Choice Band": {"ability":"Inner Focus","item":"Choice Band","nature":"Jolly","teraType":"Ice","evs":{"hp":4,"at":252,"sp":252},"moves":["Knock Off","Triple Axel","Ice Shard","Low Kick"]},
     "ZU Fast Attacker": {"ability":"Inner Focus","item":"Heavy-Duty Boots","nature":"Jolly","teraType":"Ice","evs":{"at":252,"sd":4,"sp":252},"moves":["Knock Off","Triple Axel","Ice Shard","Swords Dance"]},
     "ZU Choice Band": {"ability":"Inner Focus","item":"Choice Band","nature":"Jolly","teraType":"Ice","evs":{"at":252,"sd":4,"sp":252},"moves":["Knock Off","Triple Axel","Ice Shard","Low Kick"]}
   },
@@ -950,7 +953,7 @@ var SETDEX_SV = {
     "VGC 2023 Regulation E Showdown Usage": {"level":50,"ability":"Drought","item":"Charcoal","nature":"Quiet","evs":{"hp":252,"sa":252,"sd":4},"moves":["Eruption","Earth Power","Heat Wave","Protect"]}
   },
   "Trapinch": {
-    "LC Trapper": {"level":5,"ability":"Arena Trap","item":"Eviolite","nature":"Impish","teraType":"Bug","evs":{"at":196,"df":156,"sd":76,"sp":36},"moves":["Earthquake","Stone Edge","Feint","First Impression"]},
+    "LC Trapper": {"level":5,"ability":"Arena Trap","item":"Eviolite","nature":"Impish","teraType":"Bug","evs":{"at":196,"df":156,"sd":76,"sp":36},"moves":["Earthquake","Stone Edge","First Impression","Feint"]},
     "Monotype Trapper": {"ability":"Arena Trap","item":"Choice Band","nature":"Adamant","teraType":"Ground","evs":{"hp":252,"at":252,"sd":4},"moves":["First Impression","Earthquake","Quick Attack","Stone Edge"]}
   },
   "Flygon": {
@@ -1302,7 +1305,7 @@ var SETDEX_SV = {
   "Hippowdon": {
     "UU Tank": {"ability":"Sand Stream","item":"Leftovers","nature":"Impish","teraType":"Water","evs":{"hp":248,"df":112,"sd":148},"moves":["Stealth Rock","Ice Fang","Earthquake","Slack Off"]},
     "RU Physically Defensive": {"ability":"Sand Stream","item":"Rocky Helmet","nature":"Impish","teraType":"Ghost","evs":{"hp":252,"df":252,"sd":4},"moves":["Earthquake","Stealth Rock","Whirlwind","Slack Off"]},
-    "Monotype Sand Support": {"ability":"Sand Stream","item":"Eject Button","nature":"Impish","teraType":"Ground","evs":{"hp":252,"df":252,"sd":4},"moves":["Earthquake","Slack Off","Stealth Rock","Whirlwind"]},
+    "Monotype Sand Support": {"ability":"Sand Stream","item":"Eject Button","nature":"Impish","teraType":"Ground","evs":{"hp":252,"df":252,"sd":4},"moves":["Earthquake","Whirlwind","Stealth Rock","Slack Off"]},
     "National Dex Defensive": {"ability":"Sand Stream","item":"Leftovers","nature":"Careful","teraType":"Ground","evs":{"hp":252,"df":4,"sd":252},"moves":["Earthquake","Toxic","Stealth Rock","Slack Off"]},
     "National Dex UU Physically Defensive": {"ability":"Sand Stream","item":"Leftovers","nature":"Impish","teraType":"Ground","evs":{"hp":248,"at":8,"df":252},"moves":["Stealth Rock","Earthquake","Slack Off","Toxic"]},
     "National Dex UU Mixed Wall": {"ability":"Sand Stream","item":"Leftovers","nature":"Careful","teraType":"Ground","evs":{"hp":248,"at":8,"sd":252},"moves":["Stealth Rock","Earthquake","Slack Off","Toxic"]},
@@ -2311,7 +2314,8 @@ var SETDEX_SV = {
     "Monotype Physically Defensive": {"ability":"Sturdy","item":"Heavy-Duty Boots","nature":"Impish","teraType":"Ice","evs":{"hp":252,"df":252,"sd":4},"moves":["Rapid Spin","Recover","Body Press","Iron Defense"]}
   },
   "Avalugg-Hisui": {
-    "PU Lead": {"ability":"Sturdy","item":"Custap Berry","nature":"Adamant","teraType":"Ghost","evs":{"at":252,"df":4,"sp":252},"moves":["Stealth Rock","Mountain Gale","Body Press","Rapid Spin"]},
+    "PU Offensive": {"ability":"Sturdy","item":"Custap Berry","nature":"Adamant","teraType":"Ghost","evs":{"at":252,"df":4,"sp":252},"moves":["Stealth Rock","Mountain Gale","Body Press","Rapid Spin"]},
+    "PU Defensive": {"ability":"Sturdy","item":"Heavy-Duty Boots","nature":"Impish","teraType":"Ghost","evs":{"hp":252,"df":236,"sp":20},"moves":["Recover","Mountain Gale","Body Press","Rapid Spin"]},
     "NU Showdown Usage": {"ability":"Sturdy","item":"Custap Berry","nature":"Adamant","teraType":"Ice","evs":{"at":252,"df":4,"sp":252},"moves":["Rapid Spin","Stealth Rock","Mountain Gale","Earthquake"]},
     "1v1 Showdown Usage": {"ability":"Sturdy","item":"Choice Band","nature":"Adamant","teraType":"Ice","evs":{"at":252,"sd":4,"sp":252},"moves":["Avalanche","Stone Edge","Icicle Spear","Heavy Slam"]}
   },
@@ -3081,7 +3085,7 @@ var SETDEX_SV = {
   },
   "Ursaluna": {
     "OU Swords Dance": {"ability":"Guts","item":"Flame Orb","nature":"Adamant","teraType":"Normal","evs":{"at":252,"df":4,"sp":252},"moves":["Swords Dance","Facade","Headlong Rush","Fire Punch"]},
-    "Doubles OU Trick Room Attacker": {"ability":"Guts","item":"Flame Orb","nature":"Brave","teraType":"Normal","ivs":{"sp":0},"evs":{"hp":248,"at":252,"sd":8},"moves":["Facade","Headlong Rush","Earthquake","Protect"]},
+    "Doubles OU Trick Room Sweeper": {"ability":"Guts","item":"Flame Orb","nature":"Brave","teraType":"Ghost","ivs":{"sp":0},"evs":{"hp":248,"at":252,"sd":8},"moves":["Facade","Headlong Rush","Earthquake","Protect"]},
     "VGC 2023 Regulation E TR Sweeper": {"level":50,"ability":"Guts","item":"Flame Orb","nature":"Brave","teraType":"Ghost","ivs":{"sp":0},"evs":{"hp":252,"at":252,"sd":4},"moves":["Facade","Earthquake","Swords Dance","Protect"]},
     "Monotype Wallbreaker (Normal)": {"ability":"Guts","item":"Flame Orb","nature":"Jolly","teraType":"Ground","evs":{"at":252,"df":4,"sp":252},"moves":["Swords Dance","Facade","Earthquake","Drain Punch"]},
     "Monotype Bulk Up Physical (Normal)": {"ability":"Guts","item":"Leftovers","nature":"Adamant","teraType":"Ground","evs":{"hp":248,"at":16,"sd":156,"sp":88},"moves":["Bulk Up","Earthquake","Drain Punch","Ice Punch"]},
@@ -3390,6 +3394,7 @@ var SETDEX_SV = {
     "NU Stealth Rock": {"ability":"Big Pecks","item":"Heavy-Duty Boots","nature":"Careful","teraType":"Steel","evs":{"hp":248,"sd":180,"sp":80},"moves":["Knock Off","Stealth Rock","U-turn","Roost"]},
     "PU Offensive": {"ability":"Big Pecks","item":"Heavy-Duty Boots","nature":"Adamant","teraType":"Dark","evs":{"at":252,"df":4,"sp":252},"moves":["Knock Off","Brave Bird","Sucker Punch","Taunt"]},
     "PU Bulky Utility": {"ability":"Big Pecks","item":"Heavy-Duty Boots","nature":"Careful","teraType":"Steel","evs":{"hp":248,"sd":220,"sp":40},"moves":["Stealth Rock","Knock Off","Parting Shot","Roost"]},
+    "PU Choice Scarf": {"ability":"Rocky Payload","item":"Choice Scarf","nature":"Jolly","teraType":"Dark","evs":{"at":252,"sd":4,"sp":252},"moves":["Knock Off","Brave Bird","Rock Blast","U-turn"]},
     "Monotype Entry Hazard Support (Flying)": {"ability":"Big Pecks","item":"Heavy-Duty Boots","nature":"Impish","teraType":"Flying","evs":{"hp":252,"df":252,"sd":4},"moves":["Knock Off","Parting Shot","Stealth Rock","Taunt"]}
   },
   "Finizen": {
