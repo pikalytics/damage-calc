@@ -179,7 +179,7 @@ var SETDEX_SV = {
     "National Dex Doubles Showdown Usage": {"ability":"Trace","item":"Alakazite","nature":"Timid","teraType":"Psychic","evs":{"sa":252,"sd":4,"sp":252},"moves":["Expanding Force","Protect","Dazzling Gleam","Nasty Plot"]}
   },
   "Victreebel": {
-    "ZU All-Out Attacker": {"ability":"Chlorophyll","item":"Heavy-Duty Boots","nature":"Adamant","teraType":"Fire","evs":{"at":252,"df":4,"sp":252},"moves":["Strength Sap","Power Whip","Poison Jab","Knock Off"]}
+    "ZU All-Out Attacker": {"ability":"Chlorophyll","item":"Heavy-Duty Boots","nature":"Adamant","teraType":"Water","evs":{"at":252,"df":4,"sp":252},"moves":["Strength Sap","Power Whip","Poison Jab","Knock Off"]}
   },
   "Tentacool": {
     "LC Utility": {"level":5,"ability":"Clear Body","item":"Eviolite","nature":"Jolly","teraType":"Grass","evs":{"hp":36,"at":116,"df":156,"sp":196},"moves":["Flip Turn","Gunk Shot","Knock Off","Rapid Spin"]}
@@ -2419,8 +2419,6 @@ var SETDEX_SV = {
     "Monotype Choice Band (Psychic)": {"ability":"Magician","item":"Choice Band","nature":"Adamant","teraType":"Psychic","evs":{"at":248,"sd":8,"sp":252},"moves":["Hyperspace Fury","Zen Headbutt","Drain Punch","Trick"]},
     "Monotype Choice Scarf (Psychic)": {"ability":"Magician","item":"Choice Scarf","nature":"Hasty","teraType":"Psychic","evs":{"sa":248,"sd":8,"sp":252},"moves":["Hyperspace Fury","Dark Pulse","Psychic","Thunderbolt"]},
     "Monotype Choice Scarf (Dark)": {"ability":"Magician","item":"Choice Scarf","nature":"Hasty","teraType":"Psychic","evs":{"sa":252,"sd":8,"sp":248},"moves":["Knock Off","Focus Blast","Psychic","Thunderbolt"]},
-    "Monotype Trick Room (Dark)": {"ability":"Magician","item":"Expert Belt","nature":"Modest","teraType":"Psychic","ivs":{"at":0},"evs":{"hp":184,"df":68,"sa":160,"sp":96},"moves":["Trick Room","Thunderbolt","Psychic","Focus Blast"]},
-    "Monotype Substitute (Psychic)": {"ability":"Magician","item":"Heavy-Duty Boots","nature":"Adamant","teraType":"Psychic","evs":{"hp":252,"df":160,"sp":96},"moves":["Substitute","Knock Off","Psychic","Drain Punch"]},
     "Monotype Assault Vest (Dark)": {"ability":"Magician","item":"Assault Vest","nature":"Mild","teraType":"Psychic","evs":{"hp":240,"sa":16,"sd":156,"sp":96},"moves":["Psychic","Knock Off","Focus Blast","Thunderbolt"]},
     "National Dex Choice Band": {"ability":"Magician","item":"Choice Band","nature":"Jolly","teraType":"Psychic","evs":{"at":252,"sd":4,"sp":252},"moves":["Hyperspace Fury","Drain Punch","Zen Headbutt","Gunk Shot"]},
     "National Dex Assault Vest": {"ability":"Magician","item":"Assault Vest","nature":"Lonely","teraType":"Psychic","evs":{"hp":252,"at":64,"sa":120,"sd":56,"sp":16},"moves":["Knock Off","Psychic Noise","Drain Punch","Thunderbolt"]},
@@ -2890,6 +2888,7 @@ var SETDEX_SV = {
     "Ubers Utility": {"ability":"Magic Bounce","item":"Rocky Helmet","nature":"Bold","teraType":"Water","evs":{"hp":248,"df":252,"sp":8},"moves":["Nuzzle","Psychic Noise","Pain Split","Healing Wish"]},
     "Ubers Bulky Calm Mind": {"ability":"Magic Bounce","item":"Leftovers","nature":"Bold","teraType":"Water","evs":{"hp":252,"df":200,"sp":56},"moves":["Psyshock","Draining Kiss","Mystical Fire","Calm Mind"]},
     "Monotype Calm Mind (Fairy)": {"ability":"Magic Bounce","item":"Leftovers","nature":"Bold","teraType":"Psychic","evs":{"hp":252,"df":204,"sp":52},"moves":["Calm Mind","Psyshock","Draining Kiss","Mystical Fire"]},
+    "Monotype Offensive Trick Room (Fairy)": {"ability":"Magic Bounce","item":"Heavy-Duty Boots","nature":"Quiet","teraType":"Psychic","ivs":{"at":0,"sp":0},"evs":{"hp":252,"df":248,"sa":8},"moves":["Trick Room","Calm Mind","Draining Kiss","Psychic"]},
     "Monotype Calm Mind (Psychic)": {"ability":"Magic Bounce","item":"Leftovers","nature":"Bold","teraType":"Psychic","evs":{"hp":252,"df":204,"sp":52},"moves":["Calm Mind","Psyshock","Draining Kiss","Nuzzle"]},
     "National Dex Calm Mind": {"ability":"Magic Bounce","item":"Leftovers","nature":"Bold","teraType":"Psychic","ivs":{"at":0},"evs":{"hp":252,"df":124,"sp":132},"moves":["Calm Mind","Psychic Noise","Draining Kiss","Mystical Fire"]},
     "National Dex Healing Wish": {"ability":"Magic Bounce","item":"Eject Button","nature":"Bold","teraType":"Psychic","ivs":{"at":0},"evs":{"hp":252,"df":124,"sp":132},"moves":["Psychic Noise","Mystical Fire","Nuzzle","Healing Wish"]},
@@ -3407,7 +3406,7 @@ var SETDEX_SV = {
     "NU Choice Specs": {"ability":"Chlorophyll","item":"Choice Specs","nature":"Timid","teraType":"Fire","evs":{"sa":252,"sd":4,"sp":252},"moves":["Flamethrower","Fire Blast","Solar Beam","Giga Drain"]},
     "Monotype Sun Sweeper (Fire)": {"ability":"Chlorophyll","item":"Life Orb","nature":"Naive","teraType":"Grass","evs":{"at":32,"sa":252,"sp":224},"moves":["Growth","Giga Drain","Fire Blast","Stomping Tantrum"]},
     "Monotype Choice Specs (Fire)": {"ability":"Chlorophyll","item":"Choice Specs","nature":"Timid","teraType":"Grass","ivs":{"at":0},"evs":{"sa":252,"sd":4,"sp":252},"moves":["Fire Blast","Solar Beam","Flamethrower","Giga Drain"]},
-    "ZU Choice Specs": {"ability":"Chlorophyll","item":"Choice Specs","nature":"Modest","teraType":"Fire","evs":{"sa":252,"sd":4,"sp":252},"moves":["Flamethrower","Fire Blast","Solar Beam","Giga Drain"]},
+    "ZU Choice Specs": {"ability":"Chlorophyll","item":"Choice Specs","nature":"Modest","teraType":"Fire","evs":{"sa":252,"sd":4,"sp":252},"moves":["Flamethrower","Fire Blast","Leaf Storm","Giga Drain"]},
     "RU Showdown Usage": {"ability":"Chlorophyll","item":"Charcoal","nature":"Mild","teraType":"Grass","evs":{"at":4,"sa":252,"sp":252},"moves":["Giga Drain","Flamethrower","Overheat","Stomping Tantrum"]},
     "PU Showdown Usage": {"ability":"Chlorophyll","item":"Heavy-Duty Boots","nature":"Modest","teraType":"Grass","evs":{"sa":252,"sd":4,"sp":252},"moves":["Overheat","Flamethrower","Energy Ball","Growth"]}
   },
