@@ -2754,8 +2754,8 @@ var SETDEX_SV = {
   },
   "Thwackey": {
     "UU Terrain Setter": {"ability":"Grassy Surge","item":"Terrain Extender","nature":"Careful","teraType":"Steel","evs":{"hp":252,"sd":240,"sp":16},"moves":["Grassy Glide","Knock Off","Taunt","U-turn"]},
-    "NU Terrain Setter": {"ability":"Grassy Surge","item":"Terrain Extender","nature":"Adamant","teraType":"Poison","evs":{"hp":252,"at":252,"sd":4},"moves":["Grassy Glide","Wood Hammer","U-turn","Knock Off"]},
-    "RU Showdown Usage": {"ability":"Grassy Surge","item":"Terrain Extender","nature":"Adamant","teraType":"Grass","evs":{"hp":252,"at":252,"sd":4},"moves":["U-turn","Grassy Glide","Knock Off","Taunt"]}
+    "RU Showdown Usage": {"ability":"Grassy Surge","item":"Terrain Extender","nature":"Adamant","teraType":"Grass","evs":{"hp":252,"at":252,"sd":4},"moves":["U-turn","Grassy Glide","Knock Off","Taunt"]},
+    "NU Showdown Usage": {"ability":"Grassy Surge","item":"Terrain Extender","nature":"Adamant","teraType":"Grass","evs":{"hp":252,"at":252,"sd":4},"moves":["Grassy Glide","U-turn","Taunt","Wood Hammer"]}
   },
   "Rillaboom": {
     "OU Swords Dance": {"ability":"Grassy Surge","item":"Life Orb","nature":"Adamant","teraType":"Grass","evs":{"at":252,"df":4,"sp":252},"moves":["Swords Dance","Grassy Glide","Knock Off","Wood Hammer"]},
@@ -4045,8 +4045,8 @@ var SETDEX_SV = {
     "Monotype Choice Scarf (Psychic)": {"ability":"Quark Drive","item":"Choice Scarf","nature":"Jolly","teraType":"Rock","evs":{"at":252,"sd":4,"sp":252},"moves":["Mighty Cleave","Zen Headbutt","Earthquake","Close Combat"]},
     "Monotype Choice Scarf (Rock)": {"ability":"Quark Drive","item":"Choice Scarf","nature":"Jolly","teraType":"Rock","evs":{"at":252,"sd":4,"sp":252},"moves":["Mighty Cleave","Zen Headbutt","Earthquake","Close Combat"]},
     "National Dex Monotype Swords Dance (Psychic)": {"ability":"Quark Drive","item":"Rockium Z","nature":"Jolly","teraType":"Rock","evs":{"at":252,"sd":4,"sp":252},"moves":["Swords Dance","Mighty Cleave","Close Combat","Earthquake"]},
-    "National Dex Monotype Swords Dance (Rock)": {"ability":"Quark Drive","item":"Psychium Z","nature":"Jolly","teraType":"Rock","evs":{"at":252,"sd":4,"sp":252},"moves":["Swords Dance","Zen Headbutt","Mighty Cleave","Close Combat"]},
     "National Dex Monotype Choice Scarf (Psychic)": {"ability":"Quark Drive","item":"Choice Scarf","nature":"Jolly","teraType":"Rock","evs":{"at":252,"sd":4,"sp":252},"moves":["Mighty Cleave","Close Combat","Earthquake","Megahorn"]},
+    "National Dex Monotype Swords Dance (Rock)": {"ability":"Quark Drive","item":"Psychium Z","nature":"Jolly","teraType":"Rock","evs":{"at":252,"sd":4,"sp":252},"moves":["Swords Dance","Zen Headbutt","Mighty Cleave","Close Combat"]},
     "National Dex Monotype Choice Scarf (Rock)": {"ability":"Quark Drive","item":"Choice Scarf","nature":"Jolly","teraType":"Rock","evs":{"at":252,"sd":4,"sp":252},"moves":["Mighty Cleave","Zen Headbutt","Earthquake","Close Combat"]},
     "1v1 Choice Band": {"ability":"Quark Drive","item":"Choice Band","nature":"Jolly","teraType":"Rock","evs":{"at":252,"sd":4,"sp":252},"moves":["Mighty Cleave","Zen Headbutt","Megahorn","Sacred Sword"]},
     "1v1 Booster Energy (Speed)": {"ability":"Quark Drive","item":"Booster Energy","nature":"Jolly","teraType":"Rock","evs":{"at":252,"df":4,"sp":252},"moves":["Swords Dance","Mighty Cleave","Megahorn","Zen Headbutt"]},
