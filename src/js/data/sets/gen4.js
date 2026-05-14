@@ -1074,8 +1074,7 @@ var SETDEX_DPP = {
   "Cloyster": {
     "Ubers Lead": {"ability":"Shell Armor","item":"Focus Sash","nature":"Jolly","evs":{"at":252,"df":4,"sp":252},"moves":["Spikes","Toxic Spikes","Rapid Spin","Payback"]},
     "UU Life Orb": {"ability":"Skill Link","item":"Life Orb","nature":"Adamant","evs":{"hp":160,"at":252,"sd":96},"moves":["Ice Shard","Rock Blast","Explosion","Spikes"]},
-    "UU Support": {"ability":"Shell Armor","item":"Leftovers","nature":"Bold","evs":{"hp":252,"df":4,"sd":252},"moves":["Spikes","Rapid Spin","Surf","Toxic Spikes"]},
-    "OU Showdown Usage": {"ability":"Shell Armor","item":"Focus Sash","nature":"Timid","evs":{"hp":248,"sd":8,"sp":252},"moves":["Rapid Spin","Spikes","Icy Wind","Explosion"]}
+    "UU Support": {"ability":"Shell Armor","item":"Leftovers","nature":"Bold","evs":{"hp":252,"df":4,"sd":252},"moves":["Spikes","Rapid Spin","Surf","Toxic Spikes"]}
   },
   "Gastly": {
     "LC Utility": {"level":5,"ability":"Levitate","item":"Oran Berry","nature":"Timid","ivs":{"at":0},"evs":{"hp":36,"df":36,"sa":196,"sp":196},"moves":["Will-O-Wisp","Shadow Ball","Sludge Bomb","Substitute"]},
@@ -2577,6 +2576,9 @@ var SETDEX_DPP = {
     "Ubers SubSeed": {"ability":"Serene Grace","item":"Leftovers","nature":"Timid","evs":{"hp":4,"sa":252,"sp":252},"moves":["Substitute","Leech Seed","Seed Flare","Air Slash"]},
     "Ubers Life Orb": {"ability":"Serene Grace","item":"Life Orb","nature":"Timid","ivs":{"at":30,"df":30},"evs":{"sa":252,"sd":4,"sp":252},"moves":["Seed Flare","Air Slash","Earth Power","Hidden Power Ice"]},
     "Ubers Choice Specs": {"ability":"Serene Grace","item":"Choice Specs","nature":"Timid","ivs":{"at":30,"df":30},"evs":{"hp":4,"sa":252,"sp":252},"moves":["Seed Flare","Air Slash","Earth Power","Hidden Power Ice"]}
+  },
+  "Vaporeon": {
+    "OU Showdown Usage": {"ability":"Water Absorb","item":"Leftovers","nature":"Bold","evs":{"hp":240,"df":160,"sd":108},"moves":["Surf","Wish","Protect","Toxic"]}
   },
   "Meowth": {
     "LC Showdown Usage": {"level":5,"ability":"Technician","item":"Focus Sash","nature":"Jolly","evs":{"at":236,"df":76,"sp":196},"moves":["Fake Out","Bite","Aerial Ace","U-turn"]}
