@@ -1516,6 +1516,7 @@ var SETDEX_SV = {
     "Monotype Stallbreaker (Fire)": {"ability":"Flame Body","item":"Air Balloon","nature":"Timid","teraType":"Fire","evs":{"sa":252,"sd":4,"sp":252},"moves":["Magma Storm","Heavy Slam","Earth Power","Taunt"]},
     "National Dex Specially Defensive": {"ability":"Flash Fire","item":"Leftovers","nature":"Calm","teraType":"Fire","ivs":{"at":0},"evs":{"hp":248,"sd":220,"sp":40},"moves":["Magma Storm","Earth Power","Toxic","Stealth Rock"]},
     "National Dex Offensive": {"ability":"Flash Fire","item":"Grassium Z","nature":"Timid","teraType":"Fire","ivs":{"at":0},"evs":{"sa":252,"sd":4,"sp":252},"moves":["Magma Storm","Earth Power","Solar Beam","Stealth Rock"]},
+    "National Dex Monotype Air Balloon Stallbreaker (Steel)": {"ability":"Flash Fire","item":"Air Balloon","nature":"Timid","teraType":"Fire","ivs":{"at":0},"evs":{"sa":252,"sd":4,"sp":252},"moves":["Stealth Rock","Magma Storm","Earth Power","Hidden Power Ice"]},
     "National Dex Monotype Stallbreaker (Fire)": {"ability":"Flame Body","item":"Air Balloon","nature":"Timid","teraType":"Fire","ivs":{"at":0},"evs":{"sa":252,"sd":4,"sp":252},"moves":["Magma Storm","Earth Power","Flash Cannon","Taunt"]},
     "National Dex Monotype Specially Defensive (Steel)": {"ability":"Flash Fire","item":"Leftovers","nature":"Calm","teraType":"Fire","evs":{"hp":252,"df":4,"sd":252},"moves":["Lava Plume","Earth Power","Roar","Stealth Rock"]},
     "Almost Any Ability Desolate Land Heatran": {"ability":"Desolate Land","item":"Leftovers","nature":"Calm","ivs":{"at":0},"evs":{"hp":252,"sd":196,"sp":60},"moves":["Magma Storm","Stealth Rock","Solar Beam","Will-O-Wisp"]},
@@ -3260,6 +3261,7 @@ var SETDEX_SV = {
     "Monotype Choice Scarf (Electric)": {"ability":"Iron Fist","item":"Choice Scarf","nature":"Jolly","teraType":"Electric","evs":{"at":252,"sd":4,"sp":252},"moves":["Close Combat","Ice Punch","Thunder Punch","Revival Blessing"]},
     "National Dex RU Offensive Pivot": {"ability":"Natural Cure","item":"Heavy-Duty Boots","nature":"Jolly","teraType":"Electric","evs":{"at":252,"sd":4,"sp":252},"moves":["Double Shock","Close Combat","Ice Punch","Rest"]},
     "National Dex RU Choice Scarf": {"ability":"Natural Cure","item":"Choice Scarf","nature":"Jolly","teraType":"Electric","evs":{"at":252,"sd":4,"sp":252},"moves":["Double Shock","Close Combat","Ice Punch","Revival Blessing"]},
+    "National Dex Monotype Fighting-type Pikachu (All-Out-Attacker) (Electric)": {"ability":"Iron Fist","item":"Punching Glove","nature":"Jolly","teraType":"Electric","evs":{"at":252,"sd":4,"sp":252},"moves":["Close Combat","Ice Punch","Thunder Punch","Mach Punch"]},
     "RU Showdown Usage": {"ability":"Volt Absorb","item":"Leppa Berry","nature":"Jolly","teraType":"Electric","evs":{"at":252,"sd":4,"sp":252},"moves":["Double Shock","Revival Blessing","Close Combat","Mach Punch"]},
     "Almost Any Ability Showdown Usage": {"ability":"Intimidate","item":"Leppa Berry","nature":"Jolly","evs":{"hp":4,"at":252,"sp":252},"moves":["Revival Blessing","Nuzzle","Mach Punch","Knock Off"]}
   },
