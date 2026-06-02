@@ -1468,7 +1468,8 @@ var SETDEX_DPP = {
     "UU Standard Wall": {"ability":"Sturdy","item":"Leftovers","nature":"Sassy","ivs":{"sp":0},"evs":{"hp":252,"at":4,"sd":252},"moves":["Stealth Rock","Earthquake","Gyro Ball","Roar"]},
     "UU BaitLix": {"ability":"Sturdy","item":"Passho Berry","nature":"Adamant","evs":{"hp":100,"at":164,"sd":244},"moves":["Earthquake","Explosion","Stealth Rock","Stone Edge"]},
     "UU Torment": {"ability":"Sturdy","item":"Leftovers","nature":"Careful","evs":{"hp":252,"at":124,"sd":132},"moves":["Torment","Substitute","Toxic","Earthquake"]},
-    "UU Curse": {"ability":"Sturdy","item":"Leftovers","nature":"Sassy","ivs":{"sp":0},"evs":{"hp":252,"at":4,"sd":252},"moves":["Curse","Earthquake","Gyro Ball","Explosion"]}
+    "UU Curse": {"ability":"Sturdy","item":"Leftovers","nature":"Sassy","ivs":{"sp":0},"evs":{"hp":252,"at":4,"sd":252},"moves":["Curse","Earthquake","Gyro Ball","Explosion"]},
+    "OU Showdown Usage": {"ability":"Rock Head","item":"Leftovers","nature":"Careful","evs":{"hp":252,"at":4,"sd":252},"moves":["Earthquake","Stealth Rock","Roar","Explosion"]}
   },
   "Scizor": {
     "OU Choice Band": {"ability":"Technician","item":"Choice Band","nature":"Adamant","evs":{"hp":248,"at":252,"sd":8},"moves":["U-turn","Bullet Punch","Superpower","Pursuit"]},
@@ -2578,9 +2579,6 @@ var SETDEX_DPP = {
     "Ubers SubSeed": {"ability":"Serene Grace","item":"Leftovers","nature":"Timid","evs":{"hp":4,"sa":252,"sp":252},"moves":["Substitute","Leech Seed","Seed Flare","Air Slash"]},
     "Ubers Life Orb": {"ability":"Serene Grace","item":"Life Orb","nature":"Timid","ivs":{"at":30,"df":30},"evs":{"sa":252,"sd":4,"sp":252},"moves":["Seed Flare","Air Slash","Earth Power","Hidden Power Ice"]},
     "Ubers Choice Specs": {"ability":"Serene Grace","item":"Choice Specs","nature":"Timid","ivs":{"at":30,"df":30},"evs":{"hp":4,"sa":252,"sp":252},"moves":["Seed Flare","Air Slash","Earth Power","Hidden Power Ice"]}
-  },
-  "Vaporeon": {
-    "OU Showdown Usage": {"ability":"Water Absorb","item":"Leftovers","nature":"Bold","evs":{"hp":240,"df":160,"sd":108},"moves":["Surf","Wish","Protect","Toxic"]}
   },
   "Meowth": {
     "LC Showdown Usage": {"level":5,"ability":"Technician","item":"Focus Sash","nature":"Jolly","evs":{"at":236,"df":76,"sp":196},"moves":["Fake Out","Bite","Aerial Ace","U-turn"]}
