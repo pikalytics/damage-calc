@@ -71,8 +71,7 @@ var SETDEX_GSC = {
   "Poliwrath": {
     "OU Belly Drum": {"item":"Leftovers","moves":["Belly Drum","Lovely Kiss","Hydro Pump","Body Slam"]},
     "1v1 Mint Berry": {"item":"Mint Berry","moves":["Submission","Curse","Amnesia","Rest"]},
-    "1v1 Belly Drum": {"item":"Black Belt","moves":["Submission","Surf","Curse","Belly Drum"]},
-    "UU Showdown Usage": {"item":"Leftovers","moves":["Belly Drum","Body Slam","Earthquake","Surf"]}
+    "1v1 Belly Drum": {"item":"Black Belt","moves":["Submission","Surf","Curse","Belly Drum"]}
   },
   "Alakazam": {
     "OU Mixed Attacker": {"item":"Leftovers","moves":["Psychic","Dynamic Punch","Recover","Fire Punch"]},
@@ -289,8 +288,7 @@ var SETDEX_GSC = {
   "Primeape": {
     "NU RestTalk": {"item":"Leftovers","moves":["Cross Chop","Thunder","Rest","Sleep Talk"]},
     "NU Substitute Attacker": {"item":"Leftovers","moves":["Cross Chop","Thunder","Double-Edge","Substitute"]},
-    "1v1 Scope Lens": {"item":"Scope Lens","ivs":{"at":26,"df":26},"moves":["Cross Chop","Screech","Rock Slide","Hidden Power Bug"]},
-    "UU Showdown Usage": {"item":"Leftovers","ivs":{"hp":14,"at":24},"moves":["Cross Chop","Rock Slide","Meditate","Hidden Power Ground"]}
+    "1v1 Scope Lens": {"item":"Scope Lens","ivs":{"at":26,"df":26},"moves":["Cross Chop","Screech","Rock Slide","Hidden Power Bug"]}
   },
   "Arcanine": {
     "OU RestTalk": {"item":"Leftovers","ivs":{"hp":6,"at":24,"df":24},"moves":["Fire Blast","Hidden Power Fighting","Rest","Sleep Talk"]},
@@ -742,9 +740,6 @@ var SETDEX_GSC = {
   },
   "Celebi": {
     "Ubers Standard": {"item":"Leftovers","moves":["Heal Bell","Recover","Leech Seed","Psychic"]}
-  },
-  "Venomoth": {
-    "UU Showdown Usage": {"moves":["Psychic","Stun Spore","Sleep Powder","Thief"]}
   },
   "Bayleef": {
     "NU Showdown Usage": {"item":"Leftovers","moves":["Synthesis","Razor Leaf","Light Screen","Leech Seed"]}
