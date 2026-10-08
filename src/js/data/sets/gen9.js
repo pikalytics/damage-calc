@@ -1966,10 +1966,6 @@ var SETDEX_SV = {
     "NU Bulk Up": {"ability":"Defiant","item":"Heavy-Duty Boots","nature":"Careful","teraType":"Ground","evs":{"hp":248,"sd":164,"sp":96},"moves":["Bulk Up","Facade","Shadow Claw","Roost"]},
     "Monotype Physically Defensive (Normal)": {"ability":"Defiant","item":"Heavy-Duty Boots","nature":"Impish","teraType":"Normal","evs":{"hp":252,"df":240,"sp":16},"moves":["Brave Bird","Defog","Roost","U-turn"]}
   },
-  "Vullaby": {
-    "LC Physical Attacker": {"level":5,"ability":"Weak Armor","item":"Eviolite","nature":"Jolly","teraType":"Ghost","evs":{"at":236,"df":76,"sp":196},"moves":["Brave Bird","Knock Off","Roost","U-turn"]},
-    "LC Nasty Plot": {"level":5,"ability":"Weak Armor","item":"Eviolite","nature":"Modest","teraType":"Ghost","evs":{"df":76,"sa":236,"sp":196},"moves":["Air Slash","Heat Wave","Roost","Nasty Plot"]}
-  },
   "Mandibuzz": {
     "OU Defensive": {"ability":"Big Pecks","item":"Heavy-Duty Boots","nature":"Bold","teraType":"Water","evs":{"hp":248,"df":244,"sp":16},"moves":["Foul Play","Roost","Defog","Toxic"]},
     "UU Physically Defensive": {"ability":"Overcoat","item":"Heavy-Duty Boots","nature":"Impish","teraType":"Steel","evs":{"hp":252,"df":240,"sp":16},"moves":["Foul Play","Toxic","Roost","U-turn"]},
@@ -4304,6 +4300,9 @@ var SETDEX_SV = {
   },
   "Noctowl": {
     "ZU Showdown Usage": {"ability":"Tinted Lens","item":"Leftovers","nature":"Bold","teraType":"Normal","evs":{"hp":252,"df":252,"sp":4},"moves":["Roost","Air Slash","Calm Mind","Tera Blast"]}
+  },
+  "Vullaby": {
+    "LC Showdown Usage": {"level":5,"ability":"Weak Armor","item":"Eviolite","nature":"Modest","evs":{"df":76,"sa":236,"sp":196},"moves":["Knock Off","Brave Bird","Roost","Air Slash"]}
   },
   "Greavard": {
     "LC Showdown Usage": {"level":5,"ability":"Fluffy","item":"Eviolite","nature":"Adamant","evs":{"hp":196,"at":188,"df":36},"moves":["Poltergeist","Shadow Sneak","Play Rough","Stomping Tantrum"]}
