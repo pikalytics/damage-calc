@@ -2487,6 +2487,9 @@ var SETDEX_DPP = {
     "Ubers Life Orb": {"ability":"Serene Grace","item":"Life Orb","nature":"Timid","ivs":{"at":30,"df":30},"evs":{"sa":252,"sd":4,"sp":252},"moves":["Seed Flare","Air Slash","Earth Power","Hidden Power Ice"]},
     "Ubers Choice Specs": {"ability":"Serene Grace","item":"Choice Specs","nature":"Timid","ivs":{"at":30,"df":30},"evs":{"hp":4,"sa":252,"sp":252},"moves":["Seed Flare","Air Slash","Earth Power","Hidden Power Ice"]}
   },
+  "Vaporeon": {
+    "OU Showdown Usage": {"ability":"Water Absorb","item":"Leftovers","nature":"Bold","evs":{"hp":252,"df":252,"sp":4},"moves":["Wish","Surf","Protect","Roar"]}
+  },
   "Meowth": {
     "LC Showdown Usage": {"level":5,"ability":"Technician","item":"Focus Sash","nature":"Jolly","evs":{"at":236,"df":76,"sp":196},"moves":["Fake Out","Bite","Aerial Ace","U-turn"]}
   },
