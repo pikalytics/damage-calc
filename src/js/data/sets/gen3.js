@@ -669,6 +669,9 @@ var SETDEX_ADV = {
     "LC Offensive": {"level":5,"ability":"Rock Head","item":"Sitrus Berry","nature":"Jolly","evs":{"hp":76,"at":236,"sp":196},"moves":["Rock Slide","Earthquake","Explosion","Endure"]},
     "ZU Substitute": {"ability":"Rock Head","item":"Leftovers","nature":"Jolly","evs":{"hp":176,"at":156,"sp":176},"moves":["Earthquake","Rock Slide","Substitute","Explosion"]}
   },
+  "Drowzee": {
+    "LC Defensive": {"level":5,"ability":"Insomnia","item":"Sitrus Berry","nature":"Modest","ivs":{"at":2,"df":30,"sa":30},"evs":{"hp":36,"df":80,"sa":176,"sd":196,"sp":20},"moves":["Psychic","Thief","Calm Mind","Substitute"]}
+  },
   "Hypno": {
     "UU Support": {"ability":"Insomnia","item":"Leftovers","nature":"Bold","evs":{"hp":252,"df":192,"sp":64},"moves":["Seismic Toss","Thunder Wave","Wish","Reflect"]}
   },
@@ -1484,9 +1487,6 @@ var SETDEX_ADV = {
   },
   "Poliwhirl": {
     "PU Showdown Usage": {"ability":"Water Absorb","item":"Salac Berry","nature":"Impish","ivs":{"df":30,"sd":30},"evs":{"hp":244,"at":40,"df":188,"sd":20,"sp":16},"moves":["Belly Drum","Brick Break","Hidden Power Ghost","Substitute"]}
-  },
-  "Drowzee": {
-    "LC Showdown Usage": {"level":5,"ability":"Insomnia","item":"Sitrus Berry","nature":"Modest","evs":{"hp":116,"df":76,"sa":172,"sd":116,"sp":20},"moves":["Psychic","Thief","Substitute","Toxic"]}
   },
   "Lotad": {
     "LC Showdown Usage": {"level":5,"ability":"Swift Swim","item":"Sitrus Berry","nature":"Modest","evs":{"hp":116,"sa":196,"sp":196},"moves":["Surf","Giga Drain","Rain Dance","Ice Beam"]}

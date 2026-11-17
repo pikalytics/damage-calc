@@ -868,6 +868,7 @@ var SETDEX_SV = {
   },
   "Gardevoir": {
     "UU Choice Scarf": {"ability":"Trace","item":"Choice Scarf","nature":"Modest","teraType":"Fairy","evs":{"df":4,"sa":252,"sp":252},"moves":["Moonblast","Mystical Fire","Psychic Noise","Healing Wish"]},
+    "UU Bulky Attacker": {"ability":"Trace","item":"Heavy-Duty Boots","nature":"Modest","teraType":"Water","evs":{"hp":252,"sa":152,"sp":104},"moves":["Moonblast","Psychic Noise","Knock Off","Encore"]},
     "RU Choice Scarf": {"ability":"Trace","item":"Choice Scarf","nature":"Timid","teraType":"Fairy","ivs":{"at":0},"evs":{"df":4,"sa":252,"sp":252},"moves":["Moonblast","Psychic","Trick","Healing Wish"]},
     "Monotype Choice Specs (Psychic)": {"ability":"Trace","item":"Choice Specs","nature":"Modest","teraType":"Psychic","evs":{"sa":252,"sd":4,"sp":252},"moves":["Psyshock","Moonblast","Focus Blast","Vacuum Wave"]},
     "National Dex Offensive": {"ability":"Trace","item":"Gardevoirite","nature":"Timid","teraType":"Psychic","ivs":{"at":0},"evs":{"sa":252,"sd":4,"sp":252},"moves":["Hyper Voice","Psyshock","Mystical Fire","Taunt"]},
@@ -3030,7 +3031,7 @@ var SETDEX_SV = {
     "Almost Any Ability All-out Attacker": {"ability":"Sword of Ruin","item":"Heavy-Duty Boots","nature":"Jolly","evs":{"at":252,"sd":4,"sp":252},"moves":["Close Combat","Crunch","Stone Edge","Heavy Slam"]},
     "Almost Any Ability IronPress": {"ability":"Sword of Ruin","item":"Leftovers","nature":"Jolly","evs":{"at":108,"df":148,"sp":252},"moves":["Iron Defense","Body Press","Stone Edge","Crunch"]},
     "Ubers UU Choice Band": {"ability":"Dauntless Shield","item":"Choice Band","nature":"Jolly","teraType":"Fighting","evs":{"at":252,"sd":4,"sp":252},"moves":["Close Combat","Crunch","Stone Edge","Heavy Slam"]},
-    "Ubers UU IronPress": {"ability":"Dauntless Shield","item":"Chesto Berry","nature":"Jolly","teraType":"Dark","evs":{"at":4,"df":252,"sp":252},"moves":["Iron Defense","Body Press","Crunch","Rest"]},
+    "Ubers UU IronPress": {"ability":"Dauntless Shield","item":"Leftovers","nature":"Jolly","teraType":"Dark","evs":{"at":4,"df":252,"sp":252},"moves":["Iron Defense","Body Press","Crunch","Substitute"]},
     "Ubers UU Offensive Attacker": {"ability":"Dauntless Shield","item":"Heavy-Duty Boots","nature":"Jolly","teraType":"Dark","evs":{"at":252,"sd":4,"sp":252},"moves":["Close Combat","Crunch","Stone Edge","Howl"]},
     "CAP Showdown Usage": {"ability":"Dauntless Shield","item":"Leftovers","nature":"Jolly","teraType":"Fighting","evs":{"hp":252,"df":88,"sp":168},"moves":["Crunch","Body Press","Iron Defense","Roar"]}
   },
@@ -3468,7 +3469,7 @@ var SETDEX_SV = {
     "Doubles OU Choice Band": {"ability":"Zero to Hero","item":"Choice Band","nature":"Adamant","teraType":"Water","evs":{"hp":4,"at":252,"sp":252},"moves":["Jet Punch","Wave Crash","Flip Turn","Close Combat"]},
     "Doubles OU Bulk Up": {"ability":"Zero to Hero","item":"Leftovers","nature":"Adamant","teraType":"Grass","evs":{"hp":252,"df":4,"sd":252},"moves":["Bulk Up","Jet Punch","Drain Punch","Protect"]},
     "Almost Any Ability Bulk Up": {"ability":"Zero to Hero","item":"Leftovers","nature":"Adamant","evs":{"hp":252,"at":252,"df":4},"moves":["Substitute","Bulk Up","Jet Punch","Drain Punch"]},
-    "Ubers UU Encore": {"ability":"Zero to Hero","item":"Mystic Water","nature":"Adamant","teraType":"Water","evs":{"hp":160,"at":252,"sp":96},"moves":["Jet Punch","Wave Crash","Flip Turn","Encore"]},
+    "Ubers UU Encore Pivot": {"ability":"Zero to Hero","item":"Mystic Water","nature":"Adamant","teraType":"Water","evs":{"hp":160,"at":252,"sp":96},"moves":["Jet Punch","Wave Crash","Flip Turn","Encore"]},
     "Ubers UU Choice Band": {"ability":"Zero to Hero","item":"Choice Band","nature":"Adamant","teraType":"Water","evs":{"at":252,"sd":4,"sp":252},"moves":["Close Combat","Jet Punch","Wave Crash","Flip Turn"]},
     "Ubers UU Bulk Up": {"ability":"Zero to Hero","item":"Leftovers","nature":"Jolly","teraType":"Steel","evs":{"hp":248,"sd":176,"sp":84},"moves":["Bulk Up","Jet Punch","Drain Punch","Substitute"]}
   },
@@ -3478,7 +3479,7 @@ var SETDEX_SV = {
     "Doubles OU Choice Band": {"ability":"Zero to Hero","item":"Choice Band","nature":"Adamant","teraType":"Water","evs":{"hp":4,"at":252,"sp":252},"moves":["Jet Punch","Wave Crash","Flip Turn","Close Combat"]},
     "Doubles OU Bulk Up": {"ability":"Zero to Hero","item":"Leftovers","nature":"Adamant","teraType":"Grass","evs":{"hp":252,"df":4,"sd":252},"moves":["Bulk Up","Jet Punch","Drain Punch","Protect"]},
     "Almost Any Ability Bulk Up": {"ability":"Zero to Hero","item":"Leftovers","nature":"Adamant","evs":{"hp":252,"at":252,"df":4},"moves":["Substitute","Bulk Up","Jet Punch","Drain Punch"]},
-    "Ubers UU Encore": {"ability":"Zero to Hero","item":"Mystic Water","nature":"Adamant","teraType":"Water","evs":{"hp":160,"at":252,"sp":96},"moves":["Jet Punch","Wave Crash","Flip Turn","Encore"]},
+    "Ubers UU Encore Pivot": {"ability":"Zero to Hero","item":"Mystic Water","nature":"Adamant","teraType":"Water","evs":{"hp":160,"at":252,"sp":96},"moves":["Jet Punch","Wave Crash","Flip Turn","Encore"]},
     "Ubers UU Choice Band": {"ability":"Zero to Hero","item":"Choice Band","nature":"Adamant","teraType":"Water","evs":{"at":252,"sd":4,"sp":252},"moves":["Close Combat","Jet Punch","Wave Crash","Flip Turn"]},
     "Ubers UU Bulk Up": {"ability":"Zero to Hero","item":"Leftovers","nature":"Jolly","teraType":"Steel","evs":{"hp":248,"sd":176,"sp":84},"moves":["Bulk Up","Jet Punch","Drain Punch","Substitute"]}
   },
